@@ -1,0 +1,41 @@
+name: Post to Instagram
+
+on:
+  schedule:
+    - cron: '*/15 * * * *'
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Build but do not publish (1 = yes)'
+        default: '0'
+      only:
+        description: 'Run one item id now (optional)'
+        default: ''
+
+permissions:
+  contents: write
+
+concurrency:
+  group: instagram-post
+  cancel-in-progress: false
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Publish due items
+        env:
+          META_TOKEN: ${{ secrets.META_TOKEN }}
+          DRY_RUN: ${{ github.event.inputs.dry_run || '0' }}
+          ONLY: ${{ github.event.inputs.only || '' }}
+        run: python post.py
+      - name: Save what was posted
+        run: |
+          git config user.name "ResetHer Publisher"
+          git config user.email "resetherbalance@gmail.com"
+          git add posted.json
+          git diff --cached --quiet || (git commit -m "Record published post" && git push)

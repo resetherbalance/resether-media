@@ -1,0 +1,5 @@
+{
+ "create": {
+  "error": "{\"error\":{\"message\":\"Application does not have permission for this action\",\"type\":\"OAuthException\",\"code\":10,\"error_subcode\":2207081,\"is_transient\":false,\"error_user_title\":\"Trial reel not enough followers\",\"error_user_msg\":\"The Instagram account does not meet the trial reel follower requirement to create trial reels.\",\"fbtrace_id\":\"A19j5y2ljJw5VjA9Pok_oeY\"}}"
+ }
+}

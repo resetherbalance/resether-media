@@ -1,0 +1,30 @@
+name: Learning loop research
+
+on:
+  push:
+    paths: ['research.py', 'research/request.txt']
+  workflow_dispatch:
+  schedule:
+    - cron: '17 6 * * 5'
+
+permissions:
+  contents: write
+
+jobs:
+  research:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Pull competitor posts and our insights
+        env:
+          META_TOKEN: ${{ secrets.META_TOKEN }}
+        run: python research.py
+      - name: Save
+        run: |
+          git config user.name "ResetHer Publisher"
+          git config user.email "resetherbalance@gmail.com"
+          git add research
+          git diff --cached --quiet || (git commit -m "Research pull" && git pull --rebase && git push)

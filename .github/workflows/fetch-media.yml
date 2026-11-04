@@ -1,0 +1,43 @@
+name: Fetch approved media
+
+# Copies approved media files (e.g. Reels rendered in Higgsfield) into media/.
+# Add entries to media/fetch.json as {"R1.mp4": "https://..."} and push.
+on:
+  push:
+    paths: ['media/fetch.json']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: instagram-post
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download files
+        run: |
+          python3 - <<'PY'
+          import json, os, urllib.request
+          p = 'media/fetch.json'
+          todo = json.load(open(p)) if os.path.exists(p) else {}
+          allowed = ('https://d2ol7oe51mr4n9.cloudfront.net/', 'https://d8j0ntlcm91z4.cloudfront.net/')
+          for name, url in todo.items():
+              assert '/' not in name and name.endswith(('.mp4', '.jpg', '.png')), name
+              assert url.startswith(allowed), url
+              data = urllib.request.urlopen(url, timeout=300).read()
+              assert len(data) > 100_000, f'{name}: file too small'
+              open(os.path.join('media', name), 'wb').write(data)
+              print('saved', name, len(data))
+          json.dump({}, open(p, 'w'))
+          PY
+      - name: Commit
+        run: |
+          git config user.name "ResetHer Publisher"
+          git config user.email "resetherbalance@gmail.com"
+          git add media
+          git diff --cached --quiet || (git commit -m "Fetch approved media" && git pull --rebase && git push)

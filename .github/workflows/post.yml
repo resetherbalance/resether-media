@@ -1,6 +1,8 @@
 name: Post to Instagram
 
 on:
+  push:
+    paths: ['schedule.json']
   schedule:
     - cron: '4,11,19,26,34,41,49,56 * * * *'
   workflow_dispatch:

@@ -29,6 +29,15 @@
    "approved": true
   },
   {
+   "id": "2026-11-04-R4b",
+   "when_utc": "2026-11-04T17:00:00Z",
+   "type": "REELS",
+   "file": "R4b.mp4",
+   "cover": "R4_cover.jpg",
+   "caption": "Today is National Stress Awareness Day. Be honest: which one have you said this week? Tell me the number in the comments, and send this to the friend who always says “I'm fine”. Reset, not restart. Image created with AI.\n\n#stressawarenessday #workingwomen #womenover35 #mentalload #imfine",
+   "approved": false
+  },
+  {
    "id": "2026-11-04-C3",
    "when_utc": "2026-11-04T19:30:00Z",
    "type": "CAROUSEL",
@@ -49,9 +58,9 @@
    "id": "2026-11-05-R1",
    "when_utc": "2026-11-05T12:30:00Z",
    "type": "REELS",
-   "file": "R1.mp4",
+   "file": "R1_new.mp4",
    "cover": "R1_cover.jpg",
-   "caption": "That moment in the car before you go in? So many of us do it. It's the working day still running. One slow breath for each thing you're leaving behind, then go in. Send this to someone who sits in the car too. Reset, not restart.\n\n#workingwomen #womenover35 #eveningroutine #mentalload #decompress",
+   "caption": "That moment in the car before you go in? So many of us do it. It's the working day still running. One slow breath for each thing you're leaving behind, then go in. Send this to someone who sits in the car too. Reset, not restart. Image created with AI.\n\n#workingwomen #womenover35 #eveningroutine #mentalload #decompress",
    "approved": false
   },
   {
@@ -75,18 +84,18 @@
    "id": "2026-11-06-R2",
    "when_utc": "2026-11-06T12:30:00Z",
    "type": "REELS",
-   "file": "R2.mp4",
+   "file": "R2_new.mp4",
    "cover": "R2_cover.jpg",
-   "caption": "If your brain starts on tomorrow the second you sit down, you're not bad at relaxing. Nothing told your head that work had finished. One sticky note before you log off gives it somewhere to put the list. Save this for tomorrow at five. Reset, not restart.\n\n#eveningroutine #workingwomen #womenover35 #tinyhabits #worklifebalance",
+   "caption": "If your brain starts on tomorrow the second you sit down, you're not bad at relaxing. Nothing told your head that work had finished. One sticky note before you log off gives it somewhere to put the list. Save this for tomorrow at five. Reset, not restart. Image created with AI.\n\n#eveningroutine #workingwomen #womenover35 #tinyhabits #worklifebalance",
    "approved": false
   },
   {
    "id": "2026-11-07-R3",
    "when_utc": "2026-11-07T12:30:00Z",
    "type": "REELS",
-   "file": "R3.mp4",
+   "file": "R3_new.mp4",
    "cover": "R3_cover.jpg",
-   "caption": "If you've ever walked out of an appointment having said none of what you meant to, you're not alone. Write it down first: what changed, when it started, what it stops you doing. Comment RESET for my two-page prep sheet. Education only, not medical advice. Please speak to your GP about your symptoms. Reset, not restart.\n\n#gpappointment #womenshealth #womenover35 #womenover40 #ukwomen",
+   "caption": "If you've ever walked out of an appointment having said none of what you meant to, you're not alone. Write it down first: what changed, when it started, what it stops you doing. Comment RESET for my two-page prep sheet. Education only, not medical advice. Please speak to your GP about your symptoms. Reset, not restart. Image created with AI.\n\n#gpappointment #womenshealth #womenover35 #womenover40 #ukwomen",
    "approved": false
   }
  ]

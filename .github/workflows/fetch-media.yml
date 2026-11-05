@@ -26,11 +26,22 @@ jobs:
           p = 'media/fetch.json'
           todo = json.load(open(p)) if os.path.exists(p) else {}
           allowed = ('https://d2ol7oe51mr4n9.cloudfront.net/', 'https://d8j0ntlcm91z4.cloudfront.net/')
+          import zipfile, io
           for name, url in todo.items():
-              assert '/' not in name and name.endswith(('.mp4', '.jpg', '.png')), name
               assert url.startswith(allowed), url
-              data = urllib.request.urlopen(url, timeout=300).read()
+              data = urllib.request.urlopen(url, timeout=600).read()
               assert len(data) > 100_000, f'{name}: file too small'
+              if name.endswith('.zip'):
+                  # unpack into media/<zipname without .zip>/, flat files only
+                  dest = os.path.join('media', name[:-4]); os.makedirs(dest, exist_ok=True)
+                  z = zipfile.ZipFile(io.BytesIO(data))
+                  for m in z.namelist():
+                      base = os.path.basename(m)
+                      if base and base.endswith(('.mp4', '.jpg', '.png')):
+                          open(os.path.join(dest, base), 'wb').write(z.read(m))
+                  print('unpacked', name, len(z.namelist()))
+                  continue
+              assert '/' not in name and name.endswith(('.mp4', '.jpg', '.png')), name
               open(os.path.join('media', name), 'wb').write(data)
               print('saved', name, len(data))
           json.dump({}, open(p, 'w'))

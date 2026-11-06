@@ -41,7 +41,7 @@ jobs:
                           open(os.path.join(dest, base), 'wb').write(z.read(m))
                   print('unpacked', name, len(z.namelist()))
                   continue
-              assert '/' not in name and name.endswith(('.mp4', '.jpg', '.png')), name
+              assert '/' not in name and name.endswith(('.mp4', '.jpg', '.png', '.mp3')), name
               open(os.path.join('media', name), 'wb').write(data)
               print('saved', name, len(data))
           json.dump({}, open(p, 'w'))

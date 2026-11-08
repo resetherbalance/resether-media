@@ -70,10 +70,10 @@
   "id": "t6"
  },
  {
-  "task": "Send 3 to 5 real experiences in your own words for personal posts",
+  "task": "Answer Claude's questions about your own experiences (chat on Tue 10 Nov, 20:15)",
   "frequency": "One-off",
-  "when": "This week",
-  "due": "2026-11-13",
+  "when": "Tue 10 Nov 20:15",
+  "due": "2026-11-10",
   "minutes": 20,
   "status": "Waiting for you",
   "link": "",

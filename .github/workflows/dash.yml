@@ -37,4 +37,4 @@ jobs:
           git config user.name "ResetHer Publisher"
           git config user.email "resetherbalance@gmail.com"
           git add dashboard
-          git diff --cached --quiet || (git commit -m "Dashboard data" && git pull --rebase && git push)
+          git diff --cached --quiet || (git commit -m "Dashboard data" && git pull --rebase -X theirs && git push)

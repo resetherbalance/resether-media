@@ -20,7 +20,7 @@
  {
   "job": "Refresh this dashboard",
   "does": "Copies the latest data into this page",
-  "when": "Daily 07:13 UK",
+  "when": "Daily 08:43 UK",
   "tool": "Claude scheduled task",
   "who": "Automatic",
   "workflow": "",

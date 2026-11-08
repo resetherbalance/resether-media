@@ -106,5 +106,77 @@
   "status": "Planned",
   "result": "",
   "decision": ""
+ },
+ {
+  "id": "T10",
+  "test": "Hook: \"I saw this and had to share\"",
+  "hypothesis": "Reacting to a relatable quote or post (credited) gets more shares than our own statement (250x and 172x on competitor accounts)",
+  "metric": "Shares and saves per post",
+  "posts": "2 posts in Batch 3 vs 2 bold statement statics",
+  "start": "2026-11-22",
+  "end": "2026-12-05",
+  "status": "Planned",
+  "result": "",
+  "decision": ""
+ },
+ {
+  "id": "T11",
+  "test": "Hook: name a belief she holds, then question it",
+  "hypothesis": "Myth posts start conversations: 3,121 comments on one competitor post",
+  "metric": "Comments and comment quality",
+  "posts": "2 carousels in Batch 3 (e.g. \"If I were more organised I wouldn't be this tired\") vs 2 how-to carousels",
+  "start": "2026-11-22",
+  "end": "2026-12-05",
+  "status": "Planned",
+  "result": "",
+  "decision": ""
+ },
+ {
+  "id": "T12",
+  "test": "Hook: story opener in the first line",
+  "hypothesis": "\"She closed the laptop at six. Then opened it again at nine.\" holds viewers longer than a question",
+  "metric": "Watch time and 3-second hold",
+  "posts": "R11 (Batch 2) plus 2 Reels in Batch 3 vs question-hook Reels",
+  "start": "2026-11-14",
+  "end": "2026-12-05",
+  "status": "Planned",
+  "result": "",
+  "decision": ""
+ },
+ {
+  "id": "T13",
+  "test": "Hook: a number or time on screen in the first second",
+  "hypothesis": "A specific time or number (9pm, 4.30, 90 seconds) stops the scroll better than words alone",
+  "metric": "Watch time and reach",
+  "posts": "4 Reels in Batch 3, half with a number in frame one",
+  "start": "2026-11-22",
+  "end": "2026-12-05",
+  "status": "Planned",
+  "result": "",
+  "decision": ""
+ },
+ {
+  "id": "T14",
+  "test": "Hook: the same idea as a question vs a bold statement",
+  "hypothesis": "Questions win comments, statements win shares; we need to know which brings more follows",
+  "metric": "Follows per post, comments, shares",
+  "posts": "2 pairs in Batch 3 on the same topic, a week apart (true A/B with trial Reels once eligible)",
+  "start": "2026-11-22",
+  "end": "2026-12-05",
+  "status": "Planned",
+  "result": "",
+  "decision": ""
+ },
+ {
+  "id": "T15",
+  "test": "Hook: spoken voiceover vs text only",
+  "hypothesis": "A calm voice in the first second keeps viewers longer than text on screen with music",
+  "metric": "Watch time",
+  "posts": "2 Reels with voiceover in Batch 3 vs text-only Reels (voice needs your OK)",
+  "start": "2026-11-22",
+  "end": "2026-12-05",
+  "status": "Planned",
+  "result": "",
+  "decision": ""
  }
 ]

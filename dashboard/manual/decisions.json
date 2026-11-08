@@ -2,6 +2,13 @@
  {
   "date": "2026-11-08",
   "type": "Request",
+  "what": "Redesign the dashboard so it is easy to see what needs doing, where we are vs target, how we are performing and what is next; one checklist only; link every relevant document",
+  "status": "Done",
+  "where": "Whole dashboard"
+ },
+ {
+  "date": "2026-11-08",
+  "type": "Request",
   "what": "Everything we discuss about ResetHer content is tracked in this dashboard",
   "status": "Done",
   "where": "This tab, kept up to date by Claude after every chat"

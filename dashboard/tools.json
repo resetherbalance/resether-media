@@ -112,10 +112,38 @@
   "link": "https://github.com/resetherbalance/resether-media/blob/main/schedule.json"
  },
  {
-  "name": "Brand rules and playbooks",
+  "name": "Project docs: brand bible, compliance, hooks playbook, status",
   "category": "Document",
-  "what": "Voice, compliance, hooks playbook, engagement checklist",
-  "cost": "",
+  "what": "The rules every post follows, the hooks playbook and the running status. Open the SYL [ResetHer Balance] project",
+  "cost": "Free",
   "link": "https://claude.ai/projects"
+ },
+ {
+  "name": "Competitor research (latest pull)",
+  "category": "Document",
+  "what": "Last 30 posts of each swipe account with likes and comments, pulled Tuesday and Friday",
+  "cost": "Free",
+  "link": "https://github.com/resetherbalance/resether-media/blob/main/research/latest.json"
+ },
+ {
+  "name": "Test and learn plan file",
+  "category": "Document",
+  "what": "The tests on this dashboard; Claude updates results at each batch review",
+  "cost": "Free",
+  "link": "https://github.com/resetherbalance/resether-media/blob/main/dashboard/manual/tests.json"
+ },
+ {
+  "name": "Decisions and requests file",
+  "category": "Document",
+  "what": "Everything you ask for or decide about ResetHer content, as shown on this dashboard",
+  "cost": "Free",
+  "link": "https://github.com/resetherbalance/resether-media/blob/main/dashboard/manual/decisions.json"
+ },
+ {
+  "name": "GP prep sheet (lead magnet)",
+  "category": "Document",
+  "what": "The two-page PDF people get when they comment RESET, delivered through Kit",
+  "cost": "Free",
+  "link": "https://resether-balance.kit.com/0ca6b5366d"
  }
 ]

@@ -6,7 +6,8 @@
   "due": "",
   "minutes": 10,
   "status": "Daily",
-  "link": "https://www.instagram.com/resetherbalance/"
+  "link": "https://www.instagram.com/resetherbalance/",
+  "id": "t1"
  },
  {
   "task": "Pin the first comment from your reminder; like, save and share the post to your personal Story",
@@ -15,7 +16,8 @@
   "due": "",
   "minutes": 3,
   "status": "Daily",
-  "link": "https://www.instagram.com/resetherbalance/"
+  "link": "https://www.instagram.com/resetherbalance/",
+  "id": "t2"
  },
  {
   "task": "10 real comments as @resetherbalance on posts under 24 hours old in our niche",
@@ -24,7 +26,8 @@
   "due": "",
   "minutes": 15,
   "status": "Daily",
-  "link": "https://www.instagram.com/explore/"
+  "link": "https://www.instagram.com/explore/",
+  "id": "t3"
  },
  {
   "task": "Send the GP prep sheet DM to anyone who commented RESET",
@@ -33,7 +36,18 @@
   "due": "",
   "minutes": 3,
   "status": "Daily until 50 followers",
-  "link": "https://resether-balance.kit.com/0ca6b5366d"
+  "link": "https://resether-balance.kit.com/0ca6b5366d",
+  "id": "t4"
+ },
+ {
+  "task": "Send today's post to one friend who would find it useful",
+  "frequency": "Daily",
+  "when": "Evening",
+  "due": "",
+  "minutes": 2,
+  "status": "Daily",
+  "link": "https://www.instagram.com/resetherbalance/",
+  "id": "t10"
  },
  {
   "task": "Put the Kit link in the Instagram bio's website field (C6 mentions it)",
@@ -42,7 +56,8 @@
   "due": "2026-11-11",
   "minutes": 2,
   "status": "To do",
-  "link": "https://resether-balance.kit.com/0ca6b5366d"
+  "link": "https://resether-balance.kit.com/0ca6b5366d",
+  "id": "t5"
  },
  {
   "task": "Set up the approved newsletter in Kit for Sun 15 Nov 19:00, or tell Claude to do it",
@@ -51,7 +66,8 @@
   "due": "2026-11-14",
   "minutes": 15,
   "status": "To do",
-  "link": "https://app.kit.com/"
+  "link": "https://app.kit.com/",
+  "id": "t6"
  },
  {
   "task": "Send 3 to 5 real experiences in your own words for personal posts",
@@ -60,7 +76,8 @@
   "due": "2026-11-13",
   "minutes": 20,
   "status": "Waiting for you",
-  "link": ""
+  "link": "",
+  "id": "t7"
  },
  {
   "task": "Approve batch 3 (22 Nov to 5 Dec)",
@@ -69,7 +86,8 @@
   "due": "2026-11-20",
   "minutes": 30,
   "status": "Coming up",
-  "link": ""
+  "link": "",
+  "id": "t8"
  },
  {
   "task": "Switch on ReplyRush auto-DMs for RESET",
@@ -78,6 +96,7 @@
   "due": "",
   "minutes": 10,
   "status": "Waiting for 50 followers",
-  "link": "https://www.replyrush.com/"
+  "link": "https://www.replyrush.com/",
+  "id": "t9"
  }
 ]

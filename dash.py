@@ -196,6 +196,43 @@ write('jobs', jobs)
 for name in ['tasks', 'learnings', 'improvements', 'tools', 'tests', 'decisions', 'kpiplans']:
     write(name, json.load(open(f'dashboard/manual/{name}.json')))
 
+
+# ---------- Kit: email list (needs the KIT_API_KEY secret) ----------
+KIT = os.environ.get('KIT_API_KEY', '').strip()
+def kit_get(path, **params):
+    req = urllib.request.Request('https://api.kit.com/v4/' + path + ('?' + urllib.parse.urlencode(params) if params else ''),
+                                 headers={'X-Kit-Api-Key': KIT, 'Accept': 'application/json'})
+    try:
+        with urllib.request.urlopen(req, timeout=60) as r:
+            return json.load(r)
+    except Exception as e:  # noqa: BLE001
+        body = getattr(e, 'read', lambda: b'')()
+        return {'error': (body.decode() if body else str(e))[:300]}
+kit_rows = json.load(open('dashboard/kit.json')) if os.path.exists('dashboard/kit.json') else []
+kit_broadcasts = []
+if KIT:
+    tot = kit_get('subscribers', status='active', include_total_count='true', per_page=1)
+    week = kit_get('subscribers', status='active', include_total_count='true', per_page=1,
+                   created_after=(NOW - dt.timedelta(days=7)).strftime('%Y-%m-%dT%H:%M:%SZ'))
+    total = (tot.get('pagination') or {}).get('total_count')
+    new7 = (week.get('pagination') or {}).get('total_count')
+    if total is not None:
+        kit_rows = [r for r in kit_rows if r['date'] != today]
+        kit_rows.append({'date': today, 'subscribers': total, 'new_7_days': new7 or 0})
+        kit_rows.sort(key=lambda r: r['date'])
+    else:
+        print('kit subscribers skipped', tot)
+    bc = kit_get('broadcasts', per_page=20)
+    for b in bc.get('broadcasts', []) or []:
+        st = kit_get(f"broadcasts/{b['id']}/stats").get('broadcast', {}).get('stats', {})
+        kit_broadcasts.append({'subject': b.get('subject', ''), 'sent': (b.get('published_at') or b.get('send_at') or '')[:10],
+                               'recipients': st.get('recipients', 0), 'open_rate': st.get('open_rate'), 'click_rate': st.get('click_rate'),
+                               'unsubscribes': st.get('unsubscribes', 0), 'status': st.get('status', '')})
+else:
+    print('kit skipped: no KIT_API_KEY')
+write('kit', kit_rows)
+write('kit_broadcasts', kit_broadcasts)
+
 # ---------- summary: one row of headline numbers ----------
 live = [p for p in posts if p['status'] == 'Posted']
 def avg(rows, k):
@@ -227,6 +264,8 @@ summary = [{
     'total_follows_from_posts': sum(p.get('follows', 0) for p in live),
     'next_title': nxt.get('title', ''), 'next_when': (nxt.get('weekday', '') + ' ' + nxt.get('date', '')[8:] + ' ' + nxt.get('slot', '')).strip(),
     'next_format': nxt.get('format', ''),
+    'email_subscribers': kit_rows[-1]['subscribers'] if kit_rows else None,
+    'email_new_7_days': kit_rows[-1]['new_7_days'] if kit_rows else None,
     'to_reach_50': max(0, 50 - f_now), 'to_reach_10k': max(0, 10000 - f_now),
 }]
 write('summary', summary)

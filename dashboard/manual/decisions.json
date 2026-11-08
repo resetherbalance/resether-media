@@ -1,6 +1,13 @@
 [
  {
   "date": "2026-11-08",
+  "type": "Request",
+  "what": "Pull email stats from Kit into the dashboard (subscribers, new this week, newsletter opens and clicks)",
+  "status": "Waiting for you",
+  "where": "Needs your Kit API key added to GitHub (Claude walks you through it)"
+ },
+ {
+  "date": "2026-11-08",
   "type": "Decision",
   "what": "Research and content: women 35+ life first, then women's health (perimenopause, sleep, energy, gut, hormones, liver) and a \"what to check\" series, using your Health library for inspiration",
   "status": "In force",

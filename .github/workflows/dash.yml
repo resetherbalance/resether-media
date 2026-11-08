@@ -30,6 +30,7 @@ jobs:
         env:
           META_TOKEN: ${{ secrets.META_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          KIT_API_KEY: ${{ secrets.KIT_API_KEY }}
         run: python dash.py
       - name: Save
         run: |

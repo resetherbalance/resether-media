@@ -1,0 +1,142 @@
+[
+ {
+  "date": "2026-11-08",
+  "type": "Request",
+  "what": "Everything we discuss about ResetHer content is tracked in this dashboard",
+  "status": "Done",
+  "where": "This tab, kept up to date by Claude after every chat"
+ },
+ {
+  "date": "2026-11-08",
+  "type": "Request",
+  "what": "Test and learn roadmap, including which hooks to test",
+  "status": "Done",
+  "where": "Test and learn tab (T1 to T15)"
+ },
+ {
+  "date": "2026-11-08",
+  "type": "Request",
+  "what": "Personal stories: Claude asks you questions in chat on Tue 10 Nov 20:15, then writes the posts",
+  "status": "Scheduled",
+  "where": "Your checklist (t7), Learning tab"
+ },
+ {
+  "date": "2026-11-08",
+  "type": "Request",
+  "what": "Show how many followers each locked feature needs",
+  "status": "Done",
+  "where": "Learning tab: trial Reels at 200 to 1,000; ReplyRush at 50"
+ },
+ {
+  "date": "2026-11-08",
+  "type": "Decision needed",
+  "what": "Goal date for 10,000 followers. Dashboard uses 31 Aug 2027 until you choose",
+  "status": "Waiting for you",
+  "where": "Goal panel"
+ },
+ {
+  "date": "2026-11-08",
+  "type": "Request",
+  "what": "Definitions for every KPI, engagement rate and comment quality tracked",
+  "status": "Done",
+  "where": "Under the tiles, Performance tab"
+ },
+ {
+  "date": "2026-11-08",
+  "type": "Request",
+  "what": "Green, amber and red on metrics, amber light enough to tell from red",
+  "status": "Done",
+  "where": "Tiles, tables, charts"
+ },
+ {
+  "date": "2026-11-08",
+  "type": "Request",
+  "what": "Dashboard in ResetHer branding with the logo, fewer colours, more lemon",
+  "status": "Done",
+  "where": "Whole dashboard"
+ },
+ {
+  "date": "2026-11-08",
+  "type": "Request",
+  "what": "Tick off your jobs inside the dashboard, and Claude can see the ticks",
+  "status": "Done",
+  "where": "Today and Your checklist tabs; the evening reminder reads them"
+ },
+ {
+  "date": "2026-11-08",
+  "type": "Request",
+  "what": "Posts go out on time",
+  "status": "Done",
+  "where": "Poster now waits for the exact slot"
+ },
+ {
+  "date": "2026-11-07",
+  "type": "Decision",
+  "what": "No Reel goes out without music baked in; never ask you to add audio in the app",
+  "status": "In force",
+  "where": "Project instructions, sections 5 and 7A"
+ },
+ {
+  "date": "2026-11-07",
+  "type": "Decision",
+  "what": "Second reader for Pillar 5 posts is you",
+  "status": "In force",
+  "where": "Approval pages"
+ },
+ {
+  "date": "2026-11-07",
+  "type": "Request",
+  "what": "Every evening reminder includes the engagement routine: like, save, share from your personal account, keyword comments, reply within 30 minutes",
+  "status": "Done",
+  "where": "Evening reminder at 19:47"
+ },
+ {
+  "date": "2026-11-06",
+  "type": "Decision",
+  "what": "Every piece ends with a reason to smile and \"Reset, not restart.\"",
+  "status": "In force",
+  "where": "All content"
+ },
+ {
+  "date": "2026-11-06",
+  "type": "Decision",
+  "what": "No AI note in the bio; every post with AI imagery carries \"Image created with AI\" and the Instagram AI label",
+  "status": "In force",
+  "where": "All content"
+ },
+ {
+  "date": "2026-11-06",
+  "type": "Decision",
+  "what": "AI twin not used until rebuilt from photos you like",
+  "status": "In force",
+  "where": "Visuals"
+ },
+ {
+  "date": "2026-11-06",
+  "type": "Decision",
+  "what": "Batch 2 (8 to 21 Nov) approved, all 28 items",
+  "status": "Posting",
+  "where": "Today and Performance tabs"
+ },
+ {
+  "date": "2026-11-06",
+  "type": "Decision",
+  "what": "Never state a date, awareness day or fact without checking it first",
+  "status": "In force",
+  "where": "All content"
+ },
+ {
+  "date": "2026-11-03",
+  "type": "Decision",
+  "what": "Learning loop every batch: our results, competitors, trends, timeliness; two new formats tested each batch",
+  "status": "In force",
+  "where": "Learning and Test and learn tabs"
+ },
+ {
+  "date": "2026-11-03",
+  "type": "Decision",
+  "what": "Fortnightly Kit newsletter is part of each batch",
+  "status": "In force",
+  "where": "Your checklist (t6 for 15 Nov)"
+ }
+]

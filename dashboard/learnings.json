@@ -27,9 +27,9 @@
   "area": "Works for others",
   "finding": "The founder's own personal stories",
   "evidence": "5x to 21x normal",
-  "action": "S2 and R17 went out as stand-ins; replace with your real stories",
-  "when": "Batch 3, once you send them",
-  "status": "Waiting for your stories"
+  "action": "S2 and R17 went out as stand-ins. Claude asks you questions in chat on Tue 10 Nov at 20:15, works out the approach with you, then writes the post, Reel or Story for Batch 3",
+  "when": "Tue 10 Nov 20:15 chat, then Batch 3",
+  "status": "Scheduled"
  },
  {
   "area": "Works for others",
@@ -90,9 +90,9 @@
  {
   "area": "To improve",
   "finding": "Trial Reels are locked",
-  "evidence": "Instagram: not enough followers (4 Nov)",
-  "action": "Switch on automatically for reach Reels when the account qualifies",
-  "when": "When eligible",
+  "evidence": "Instagram said not enough followers (4 Nov). Needs 1,000 followers and a public account (Adam Mosseri, July 2025); some 2026 guides say 200 for professional accounts",
+  "action": "Claude tries again at 200 followers, then at 1,000, and switches trial Reels on for reach Reels as soon as Instagram allows",
+  "when": "At 200 followers, then 1,000",
   "status": "Waiting for Instagram"
  },
  {

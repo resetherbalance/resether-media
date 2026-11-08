@@ -9,6 +9,13 @@
  {
   "date": "2026-11-08",
   "type": "Request",
+  "what": "Research what works in the industry more often: hooks, content, viral formats",
+  "status": "Done",
+  "where": "Competitor pull now runs Tuesday and Friday; Claude's viral watch every Monday feeds the Learning and Test and learn tabs"
+ },
+ {
+  "date": "2026-11-08",
+  "type": "Request",
   "what": "Test and learn roadmap, including which hooks to test",
   "status": "Done",
   "where": "Test and learn tab (T1 to T15)"
@@ -29,10 +36,10 @@
  },
  {
   "date": "2026-11-08",
-  "type": "Decision needed",
-  "what": "Goal date for 10,000 followers. Dashboard uses 31 Aug 2027 until you choose",
-  "status": "Waiting for you",
-  "where": "Goal panel"
+  "type": "Decision",
+  "what": "Goal: 10,000 high-quality followers by 31 Jan 2027, with a few viral posts along the way",
+  "status": "In force",
+  "where": "Goal panel, Test and learn (viral bets)"
  },
  {
   "date": "2026-11-08",

@@ -1,6 +1,13 @@
 [
  {
   "date": "2026-11-08",
+  "type": "Decision",
+  "what": "Research and content: women 35+ life first, then women's health (perimenopause, sleep, energy, gut, hormones, liver) and a \"what to check\" series, using your Health library for inspiration",
+  "status": "In force",
+  "where": "Topic bank (project doc brand/TOPIC-bank.md), Monday viral watch"
+ },
+ {
+  "date": "2026-11-08",
   "type": "Request",
   "what": "Each key number opens its plan: what we are doing to improve it, who does it and when",
   "status": "Done",

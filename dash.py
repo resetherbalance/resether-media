@@ -103,6 +103,8 @@ for it in S['items']:
             row['status'] = 'Due now'
         else:
             row['status'] = 'Scheduled'
+    d = (local.date() - NOW.astimezone(UK).date()).days
+    row['day'] = 'Today' if d == 0 else 'Tomorrow' if d == 1 else 'Yesterday' if d == -1 else ('Past' if d < 0 else 'Later')
     posts.append(row)
 write('posts', posts)
 
@@ -180,5 +182,33 @@ write('jobs', jobs)
 # ---------- hand-kept lists: copied through as they are ----------
 for name in ['tasks', 'learnings', 'improvements', 'tools']:
     write(name, json.load(open(f'dashboard/manual/{name}.json')))
+
+# ---------- summary: one row of headline numbers ----------
+live = [p for p in posts if p['status'] == 'Posted']
+def avg(rows, k):
+    return round(sum(r.get(k, 0) for r in rows) / len(rows), 1) if rows else 0
+reels = [p for p in live if p['format'] == 'Reel']
+cars = [p for p in live if p['format'] != 'Reel']
+upcoming = [p for p in posts if p['status'] == 'Scheduled']
+nxt = upcoming[0] if upcoming else {}
+f_now = hist[-1]['followers'] if hist else 0
+week_ago = (NOW.astimezone(UK).date() - dt.timedelta(days=7)).isoformat()
+older = [h for h in hist if h['date'] <= week_ago]
+base = older[-1]['followers'] if older else (hist[0]['followers'] if hist else 0)
+summary = [{
+    'built': NOW.astimezone(UK).strftime('%Y-%m-%d %H:%M'),
+    'followers': f_now, 'followers_change': f_now - base,
+    'followers_change_since': older[-1]['date'] if older else (hist[0]['date'] if hist else ''),
+    'posts_live': len(live), 'scheduled': len(upcoming),
+    'total_reach': sum(p.get('reach', 0) for p in live),
+    'total_interactions': sum(p.get('interactions', 0) for p in live),
+    'avg_reach_reel': avg(reels, 'reach'), 'avg_reach_feed': avg(cars, 'reach'),
+    'avg_watch_s': avg([r for r in reels if 'avg_watch_s' in r], 'avg_watch_s'),
+    'avg_minutes_late': avg(live, 'minutes_late'),
+    'next_title': nxt.get('title', ''), 'next_when': (nxt.get('weekday', '') + ' ' + nxt.get('date', '')[8:] + ' ' + nxt.get('slot', '')).strip(),
+    'next_format': nxt.get('format', ''),
+    'to_reach_50': max(0, 50 - f_now), 'to_reach_10k': max(0, 10000 - f_now),
+}]
+write('summary', summary)
 
 json.dump({'built_utc': NOW.isoformat(timespec='seconds')}, open('dashboard/built.json', 'w'))

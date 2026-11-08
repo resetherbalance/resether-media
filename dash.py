@@ -81,6 +81,8 @@ for it in S['items']:
         link = get(p['media_id'], fields='permalink')
         row['permalink'] = link.get('permalink', '')
         row['removed'] = 'error' in link
+        if row['removed']:
+            row['status'] = 'Removed'
         row['reach'] = m.get('reach', 0)
         row['views'] = m.get('views', 0)
         row['likes'] = m.get('likes', 0)

@@ -18,13 +18,13 @@
   "who": "Automatic",
   "workflow": "Dashboard data",
   "link": "https://github.com/resetherbalance/resether-media/actions/workflows/dash.yml",
-  "last_run": "2026-11-08 01:24",
+  "last_run": "2026-11-08 01:25",
   "last_result": "OK"
  },
  {
   "job": "Refresh this dashboard",
   "does": "Copies the latest data into this page",
-  "when": "Daily 07:13 UK",
+  "when": "Daily 08:43 UK",
   "tool": "Claude scheduled task",
   "who": "Automatic",
   "workflow": "",

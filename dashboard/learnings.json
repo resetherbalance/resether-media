@@ -1,6 +1,22 @@
 [
  {
   "area": "Works for others",
+  "finding": "@life.withkate (491k): text-heavy single-image posts with a strong opinion or a myth set straight",
+  "evidence": "\"I won't stop talking about this\" 6x her usual, 2,419 comments; \"Let's set the record straight\" 4x (API pull, 8 Nov). Her treatment claims are off-limits for us",
+  "action": "Test text-heavy single-image posts and myth posts at 19:30 (T18); hooks in brand/HOOKS-bank-new-topics.md",
+  "when": "From Batch 3, or this week if you approve swaps",
+  "status": "Planned"
+ },
+ {
+  "area": "Works for others",
+  "finding": "One confident habit statement and \"what were your first symptoms?\" are the two biggest winners in our niche",
+  "evidence": "423x and 356x on @whatthemenopause (pull of 6 Nov)",
+  "action": "Hooks written for every new topic (nervous system, cortisol, blood sugar, eating, exercise, mitochondria, ferritin, symptoms, research)",
+  "when": "Batch 3, or this week if you approve swaps",
+  "status": "Planned"
+ },
+ {
+  "area": "Works for others",
   "finding": "Asking her about her own experience in the first line",
   "evidence": "Up to 355x the account's normal engagement (competitor pull, 4 Nov)",
   "action": "First-line questions in every batch: R6, C6, C9, R16",

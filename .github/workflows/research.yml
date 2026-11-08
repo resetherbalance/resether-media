@@ -5,7 +5,7 @@ on:
     paths: ['research.py', 'research/request.txt']
   workflow_dispatch:
   schedule:
-    - cron: '17 6 * * 5'
+    - cron: '17 6 * * 2,5'
 
 permissions:
   contents: write

@@ -11,7 +11,7 @@
  {
   "job": "Dashboard data",
   "does": "Pulls followers and each post's reach, likes, saves, shares and comments",
-  "when": "Daily 06:45 UK",
+  "when": "Daily 05:45 UK",
   "tool": "GitHub Actions + Instagram API",
   "who": "Automatic",
   "workflow": "Dashboard data",
@@ -29,11 +29,20 @@
  {
   "job": "Learning loop research",
   "does": "Reads the last 30 posts of 12 similar accounts and our own insights",
-  "when": "Fridays 06:17 UK",
+  "when": "Tuesday and Friday 06:17 UK",
   "tool": "GitHub Actions + Business Discovery",
   "who": "Automatic",
   "workflow": "Learning loop research",
   "link": "https://github.com/resetherbalance/resether-media/actions/workflows/research.yml"
+ },
+ {
+  "job": "Viral watch",
+  "does": "Claude researches what went viral this week in burnout, midlife and working-women wellbeing (hooks, formats, sounds, topics) and adds the patterns to Learning and the viral bets for the next batch",
+  "when": "Mondays 10:47 UK",
+  "tool": "Claude scheduled task + web research + competitor pull",
+  "who": "Claude",
+  "workflow": "",
+  "link": "https://claude.ai/artifact/PJ1FjLhZ6Q5wk1MnJPW7Nu#learning"
  },
  {
   "job": "Evening engagement reminder",

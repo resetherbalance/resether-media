@@ -1,0 +1,121 @@
+[
+ {
+  "name": "Instagram @resetherbalance",
+  "category": "Channel",
+  "what": "The account itself (Creator account)",
+  "cost": "Free",
+  "link": "https://www.instagram.com/resetherbalance/"
+ },
+ {
+  "name": "Meta Business Suite",
+  "category": "Channel",
+  "what": "Insights, inbox and comments on desktop",
+  "cost": "Free",
+  "link": "https://business.facebook.com/latest/home?asset_id=1354228744449631"
+ },
+ {
+  "name": "GitHub: resether-media",
+  "category": "Automation",
+  "what": "Schedule, media and the posting system",
+  "cost": "Free",
+  "link": "https://github.com/resetherbalance/resether-media"
+ },
+ {
+  "name": "GitHub Actions",
+  "category": "Automation",
+  "what": "Run history of every automatic job",
+  "cost": "Free",
+  "link": "https://github.com/resetherbalance/resether-media/actions"
+ },
+ {
+  "name": "Meta app: ResetHer Publisher",
+  "category": "Automation",
+  "what": "The key that lets the system post and read insights",
+  "cost": "Free",
+  "link": "https://developers.facebook.com/apps/1775493963729838/dashboard/"
+ },
+ {
+  "name": "Kit",
+  "category": "Email",
+  "what": "Email list and the fortnightly newsletter",
+  "cost": "Free up to 10,000 subscribers",
+  "link": "https://app.kit.com/"
+ },
+ {
+  "name": "Kit page: GP prep sheet",
+  "category": "Email",
+  "what": "Sign-up page that delivers the free PDF",
+  "cost": "Free",
+  "link": "https://resether-balance.kit.com/0ca6b5366d"
+ },
+ {
+  "name": "Higgsfield",
+  "category": "Creative",
+  "what": "AI images and music for Reels",
+  "cost": "Lite plan (paid)",
+  "link": "https://higgsfield.ai/"
+ },
+ {
+  "name": "Pixabay",
+  "category": "Creative",
+  "what": "Free licensed stock footage",
+  "cost": "Free",
+  "link": "https://pixabay.com/videos/"
+ },
+ {
+  "name": "ReplyRush",
+  "category": "Engagement",
+  "what": "Automatic RESET DMs, once you reach 50 followers",
+  "cost": "Free",
+  "link": "https://www.replyrush.com/"
+ },
+ {
+  "name": "Claude",
+  "category": "Team",
+  "what": "Plans, writes, designs, checks, reminds and reports",
+  "cost": "Your Claude plan",
+  "link": "https://claude.ai/"
+ },
+ {
+  "name": "Batch 2 review page",
+  "category": "Document",
+  "what": "Every post in 8 to 21 Nov with captions",
+  "cost": "",
+  "link": "https://claude.ai/artifact/XgmpPHtxivpVy13S9yx4gG"
+ },
+ {
+  "name": "Long-term plan",
+  "category": "Document",
+  "what": "Phases, product ladder and pillars",
+  "cost": "",
+  "link": "https://claude.ai/artifact/885EXdUND6ihAAffwoyPkm"
+ },
+ {
+  "name": "Batch 1 samples",
+  "category": "Document",
+  "what": "The first approved posts",
+  "cost": "",
+  "link": "https://claude.ai/artifact/FytFxmEaDF9uZxin12k2dw"
+ },
+ {
+  "name": "ResetHer design system",
+  "category": "Document",
+  "what": "Colours, type and templates",
+  "cost": "",
+  "link": "https://claude.ai/artifact/Fhok5jdEnmmitpWWFWN4ci"
+ },
+ {
+  "name": "Posting schedule",
+  "category": "Document",
+  "what": "Every scheduled post and its caption",
+  "cost": "",
+  "link": "https://github.com/resetherbalance/resether-media/blob/main/schedule.json"
+ },
+ {
+  "name": "Brand rules and playbooks",
+  "category": "Document",
+  "what": "Voice, compliance, hooks playbook, engagement checklist",
+  "cost": "",
+  "link": "https://claude.ai/projects"
+ }
+]

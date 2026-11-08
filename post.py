@@ -106,7 +106,24 @@ def main():
         print(f'PUBLISHED {iid}: {pub}')
         done_any = True
         break  # one post per run, so posts never pile up together
-    if not done_any:
+    if not done_any and not ONLY and not DRY and not os.environ.get('NO_WAIT'):
+        # GitHub's timer fires only every 40 to 60 minutes. If a post is due within
+        # the next 55 minutes, wait for it here so it goes out on time.
+        now = datetime.datetime.now(datetime.timezone.utc)
+        upcoming = []
+        for item in S['items']:
+            if item['id'] in POSTED or not item.get('approved'):
+                continue
+            when = datetime.datetime.fromisoformat(item['when_utc'].replace('Z', '+00:00'))
+            wait = (when - now).total_seconds()
+            if 0 < wait <= 55 * 60:
+                upcoming.append((wait, item['id']))
+        if upcoming:
+            wait, iid = min(upcoming)
+            print(f'waiting {int(wait)}s for {iid}')
+            time.sleep(wait + 5)
+            os.environ['NO_WAIT'] = '1'
+            return main()
         print('nothing published this run')
 
 

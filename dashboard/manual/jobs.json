@@ -1,0 +1,92 @@
+[
+ {
+  "job": "Publish posts",
+  "does": "Posts each approved Reel, carousel, static and Story at its slot, then records it",
+  "when": "Each slot: 07:30, 12:30, 19:30 UK",
+  "tool": "GitHub Actions + Instagram API",
+  "who": "Automatic",
+  "workflow": "Post to Instagram",
+  "link": "https://github.com/resetherbalance/resether-media/actions/workflows/post.yml"
+ },
+ {
+  "job": "Dashboard data",
+  "does": "Pulls followers and each post's reach, likes, saves, shares and comments",
+  "when": "Daily 06:45 UK",
+  "tool": "GitHub Actions + Instagram API",
+  "who": "Automatic",
+  "workflow": "Dashboard data",
+  "link": "https://github.com/resetherbalance/resether-media/actions/workflows/dash.yml"
+ },
+ {
+  "job": "Refresh this dashboard",
+  "does": "Copies the latest data into this page",
+  "when": "Daily 07:13 UK",
+  "tool": "Claude scheduled task",
+  "who": "Automatic",
+  "workflow": "",
+  "link": ""
+ },
+ {
+  "job": "Learning loop research",
+  "does": "Reads the last 30 posts of 12 similar accounts and our own insights",
+  "when": "Fridays 06:17 UK",
+  "tool": "GitHub Actions + Business Discovery",
+  "who": "Automatic",
+  "workflow": "Learning loop research",
+  "link": "https://github.com/resetherbalance/resether-media/actions/workflows/research.yml"
+ },
+ {
+  "job": "Evening engagement reminder",
+  "does": "Sends your 20-minute checklist with a ready first comment to pin",
+  "when": "Daily 19:47 UK",
+  "tool": "Claude scheduled task",
+  "who": "Automatic, to your phone",
+  "workflow": "",
+  "link": ""
+ },
+ {
+  "job": "Fetch approved media",
+  "does": "Downloads finished videos and images into the posting folder",
+  "when": "When new media is added",
+  "tool": "GitHub Actions",
+  "who": "Automatic",
+  "workflow": "Fetch approved media",
+  "link": "https://github.com/resetherbalance/resether-media/actions/workflows/fetch-media.yml"
+ },
+ {
+  "job": "Trial Reels check",
+  "does": "Tests whether Instagram allows Trial Reels for the account yet",
+  "when": "On request",
+  "tool": "GitHub Actions + Instagram API",
+  "who": "Automatic",
+  "workflow": "Trial Reels check",
+  "link": "https://github.com/resetherbalance/resether-media/actions/workflows/trial-check.yml"
+ },
+ {
+  "job": "Build the next batch",
+  "does": "Plans, writes, designs and checks 14 Reels, 14 feed posts, Stories and the newsletter",
+  "when": "Every two weeks, ready for your Friday approval",
+  "tool": "Claude + Higgsfield + Pixabay",
+  "who": "Claude",
+  "workflow": "",
+  "link": ""
+ },
+ {
+  "job": "Compliance check",
+  "does": "Checks every piece against the claims rules; perimenopause and thyroid pieces get a separate review before you read them",
+  "when": "Every batch",
+  "tool": "Claude",
+  "who": "Claude",
+  "workflow": "",
+  "link": ""
+ },
+ {
+  "job": "Newsletter draft",
+  "does": "Writes the fortnightly Kit email with the batch",
+  "when": "Every two weeks",
+  "tool": "Claude + Kit",
+  "who": "Claude",
+  "workflow": "",
+  "link": ""
+ }
+]

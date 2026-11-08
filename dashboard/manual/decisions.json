@@ -1,6 +1,20 @@
 [
  {
   "date": "2026-11-08",
+  "type": "Request",
+  "what": "Working hooks for every new topic, based on what performs; study @life.withkate",
+  "status": "Done",
+  "where": "Test and learn tab; project doc brand/HOOKS-bank-new-topics.md; @life.withkate added to the twice-weekly competitor pull"
+ },
+ {
+  "date": "2026-11-08",
+  "type": "Decision needed",
+  "what": "Swap 4 to 6 of this week's Batch 2 posts for the stronger hooks, from Tue 10 Nov",
+  "status": "Waiting for you",
+  "where": "Reply yes in chat and Claude makes them for your approval"
+ },
+ {
+  "date": "2026-11-08",
   "type": "Decision",
   "what": "More topics for future content: nervous system practices (breathing, humming), insulin resistance, cortisol and how they link to hormones, eating and exercise in your 40s, mitochondria, ferritin, hair shedding, other symptoms, and the newest perimenopause research",
   "status": "In force",

@@ -202,5 +202,17 @@
   "status": "Planned",
   "result": "",
   "decision": ""
+ },
+ {
+  "id": "T18",
+  "test": "Text-heavy single-image posts and myth posts (the @life.withkate format)",
+  "hypothesis": "A strong opinion or a myth set straight, in one text-heavy image, gets more comments and shares than our carousels",
+  "metric": "Comments, shares, reach",
+  "posts": "2 a week at 19:30 from Batch 3",
+  "start": "2026-11-22",
+  "end": "2026-12-05",
+  "status": "Planned",
+  "result": "",
+  "decision": ""
  }
 ]

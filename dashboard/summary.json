@@ -1,6 +1,6 @@
 [
  {
-  "built": "2026-11-08 01:36",
+  "built": "2026-11-08 01:44",
   "followers": 6,
   "followers_change": 3,
   "followers_change_since": "2026-11-04",
@@ -22,6 +22,8 @@
   "next_title": "The car is the only room where nobody needs anything from you.",
   "next_when": "Sun 08 12:30",
   "next_format": "Reel",
+  "email_subscribers": null,
+  "email_new_7_days": null,
   "to_reach_50": 44,
   "to_reach_10k": 9994
  }

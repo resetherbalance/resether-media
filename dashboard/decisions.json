@@ -2,6 +2,13 @@
  {
   "date": "2026-11-08",
   "type": "Request",
+  "what": "Your daily reminder at the top of the dashboard: \"The Universe has your back. What would abundant Sylwia do today?\"",
+  "status": "Done",
+  "where": "Top of the dashboard"
+ },
+ {
+  "date": "2026-11-08",
+  "type": "Request",
   "what": "Pull email stats from Kit into the dashboard (subscribers, new this week, newsletter opens and clicks)",
   "status": "Waiting for you",
   "where": "Needs your Kit API key added to GitHub (Claude walks you through it)"

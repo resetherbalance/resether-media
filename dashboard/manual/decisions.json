@@ -1,6 +1,20 @@
 [
  {
   "date": "2026-11-08",
+  "type": "Decision",
+  "what": "More topics for future content: nervous system practices (breathing, humming), insulin resistance, cortisol and how they link to hormones, eating and exercise in your 40s, mitochondria, ferritin, hair shedding, other symptoms, and the newest perimenopause research",
+  "status": "In force",
+  "where": "Topic bank (brand/TOPIC-bank.md); monthly research check in the Monday viral watch"
+ },
+ {
+  "date": "2026-11-08",
+  "type": "Request",
+  "what": "Top-strip cards open the page they relate to; tab renamed Test and learn",
+  "status": "Done",
+  "where": "Top of the dashboard"
+ },
+ {
+  "date": "2026-11-08",
   "type": "Request",
   "what": "Your daily reminder at the top of the dashboard: \"The Universe has your back. What would abundant Sylwia do today?\"",
   "status": "Done",

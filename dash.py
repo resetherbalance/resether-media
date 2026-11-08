@@ -193,7 +193,7 @@ for j in jobs:
 write('jobs', jobs)
 
 # ---------- hand-kept lists: copied through as they are ----------
-for name in ['tasks', 'learnings', 'improvements', 'tools', 'tests', 'decisions']:
+for name in ['tasks', 'learnings', 'improvements', 'tools', 'tests', 'decisions', 'kpiplans']:
     write(name, json.load(open(f'dashboard/manual/{name}.json')))
 
 # ---------- summary: one row of headline numbers ----------

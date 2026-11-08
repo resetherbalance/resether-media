@@ -22,6 +22,11 @@
   "follows": 0,
   "profile_visits": 0,
   "interactions": 3,
+  "engagement_rate": 0.75,
+  "comments_from_others": 1,
+  "quality_comments": 1,
+  "reset_comments": 0,
+  "replied_comments": 1,
   "day": "Past"
  },
  {
@@ -47,6 +52,7 @@
   "follows": 0,
   "profile_visits": 0,
   "interactions": 0,
+  "engagement_rate": null,
   "day": "Past"
  },
  {
@@ -72,6 +78,11 @@
   "follows": 0,
   "profile_visits": 0,
   "interactions": 0,
+  "engagement_rate": 0.0,
+  "comments_from_others": 0,
+  "quality_comments": 0,
+  "reset_comments": 0,
+  "replied_comments": 0,
   "avg_watch_s": 20.3,
   "day": "Past"
  },
@@ -98,6 +109,11 @@
   "follows": 0,
   "profile_visits": 0,
   "interactions": 2,
+  "engagement_rate": 0.5,
+  "comments_from_others": 0,
+  "quality_comments": 0,
+  "reset_comments": 0,
+  "replied_comments": 0,
   "day": "Past"
  },
  {
@@ -123,6 +139,11 @@
   "follows": 0,
   "profile_visits": 0,
   "interactions": 4,
+  "engagement_rate": 0.028,
+  "comments_from_others": 0,
+  "quality_comments": 0,
+  "reset_comments": 0,
+  "replied_comments": 0,
   "avg_watch_s": 4.1,
   "day": "Past"
  },
@@ -149,6 +170,11 @@
   "follows": 0,
   "profile_visits": 0,
   "interactions": 2,
+  "engagement_rate": 2.0,
+  "comments_from_others": 1,
+  "quality_comments": 0,
+  "reset_comments": 1,
+  "replied_comments": 0,
   "day": "Past"
  },
  {
@@ -174,6 +200,11 @@
   "follows": 0,
   "profile_visits": 0,
   "interactions": 2,
+  "engagement_rate": 0.0263,
+  "comments_from_others": 0,
+  "quality_comments": 0,
+  "reset_comments": 0,
+  "replied_comments": 0,
   "avg_watch_s": 3.7,
   "day": "Past"
  },
@@ -200,6 +231,11 @@
   "follows": 0,
   "profile_visits": 0,
   "interactions": 0,
+  "engagement_rate": 0.0,
+  "comments_from_others": 0,
+  "quality_comments": 0,
+  "reset_comments": 0,
+  "replied_comments": 0,
   "avg_watch_s": 2.0,
   "day": "Yesterday"
  },

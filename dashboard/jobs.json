@@ -18,7 +18,7 @@
   "who": "Automatic",
   "workflow": "Dashboard data",
   "link": "https://github.com/resetherbalance/resether-media/actions/workflows/dash.yml",
-  "last_run": "2026-11-08 17:47",
+  "last_run": "2026-11-08 17:56",
   "last_result": "OK"
  },
  {
@@ -40,7 +40,7 @@
   "who": "Automatic",
   "workflow": "Learning loop research",
   "link": "https://github.com/resetherbalance/resether-media/actions/workflows/research.yml",
-  "last_run": "2026-11-08 17:55",
+  "last_run": "2026-11-08 17:57",
   "last_result": "OK"
  },
  {

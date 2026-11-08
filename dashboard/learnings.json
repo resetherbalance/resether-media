@@ -1,0 +1,106 @@
+[
+ {
+  "area": "Works for others",
+  "finding": "Asking her about her own experience in the first line",
+  "evidence": "Up to 355x the account's normal engagement (competitor pull, 4 Nov)",
+  "action": "First-line questions in every batch: R6, C6, C9, R16",
+  "when": "Batch 2, 8 to 21 Nov",
+  "status": "In use"
+ },
+ {
+  "area": "Works for others",
+  "finding": "\"Anyone else?\" recognition Reels with humour",
+  "evidence": "Up to 298x normal",
+  "action": "Two humour Reels per batch: R5, R12",
+  "when": "Batch 2",
+  "status": "In use"
+ },
+ {
+  "area": "Works for others",
+  "finding": "Comment a keyword to get something useful by DM",
+  "evidence": "36x to 156x normal on @dr_naomipotter",
+  "action": "RESET on our most useful posts: C2, R3, C6, R14",
+  "when": "Batch 1 and 2",
+  "status": "In use"
+ },
+ {
+  "area": "Works for others",
+  "finding": "The founder's own personal stories",
+  "evidence": "5x to 21x normal",
+  "action": "S2 and R17 went out as stand-ins; replace with your real stories",
+  "when": "Batch 3, once you send them",
+  "status": "Waiting for your stories"
+ },
+ {
+  "area": "Works for others",
+  "finding": "Bold one-line statement graphics",
+  "evidence": "3x to 4x normal (@nedratawwab)",
+  "action": "Statics S1 to S4",
+  "when": "Batch 2",
+  "status": "In use"
+ },
+ {
+  "area": "Works for others",
+  "finding": "The hook matters more than the format",
+  "evidence": "Median across accounts: Reels 1.07x, statics 1.05x, carousels 0.87x",
+  "action": "Hook rules in the hooks playbook for every post",
+  "when": "Every batch",
+  "status": "In use"
+ },
+ {
+  "area": "How we're doing",
+  "finding": "Reels reach new people; carousels mostly reach no one yet",
+  "evidence": "R1 reached 141 accounts; carousels reached 0 to 4 (6 Nov)",
+  "action": "Keep a Reel every day; give carousels a Reel-style first slide and share each to Stories",
+  "when": "Batch 3",
+  "status": "Planned"
+ },
+ {
+  "area": "How we're doing",
+  "finding": "Distribution is the bottleneck, not the content",
+  "evidence": "5 followers on 6 Nov after 6 posts",
+  "action": "10 outbound comments a day, personal Story shares, fast replies, collab posts",
+  "when": "Now",
+  "status": "Your daily jobs"
+ },
+ {
+  "area": "How we're doing",
+  "finding": "Viewers leave our Reels early",
+  "evidence": "R1 average watch 3.9 seconds",
+  "action": "Hook in the first 2 seconds, faster cuts (1.5 to 2 seconds a card), loop the ending",
+  "when": "Batch 3",
+  "status": "Planned"
+ },
+ {
+  "area": "How we're doing",
+  "finding": "Posts went out up to 70 minutes late",
+  "evidence": "GitHub's free timer fires every 40 to 60 minutes",
+  "action": "The poster now waits for the exact slot",
+  "when": "8 Nov",
+  "status": "Done"
+ },
+ {
+  "area": "To improve",
+  "finding": "Stories are not posting yet",
+  "evidence": "0 Stories so far; the plan says 3 to 5 a day",
+  "action": "Make Story frames with each batch; the scheduler posts them",
+  "when": "Batch 3, or sooner if you approve a set",
+  "status": "Planned"
+ },
+ {
+  "area": "To improve",
+  "finding": "Trial Reels are locked",
+  "evidence": "Instagram: not enough followers (4 Nov)",
+  "action": "Switch on automatically for reach Reels when the account qualifies",
+  "when": "When eligible",
+  "status": "Waiting for Instagram"
+ },
+ {
+  "area": "To improve",
+  "finding": "No collab posts yet",
+  "evidence": "Collabs reach another account's whole audience",
+  "action": "Claude shortlists 5 small accounts (1k to 20k); you send the message",
+  "when": "Batch 3",
+  "status": "Planned"
+ }
+]

@@ -1,0 +1,83 @@
+[
+ {
+  "task": "Reply to every comment within 30 minutes of the 19:30 post",
+  "frequency": "Daily",
+  "when": "19:30 to 20:00",
+  "due": "",
+  "minutes": 10,
+  "status": "Daily",
+  "link": "https://www.instagram.com/resetherbalance/"
+ },
+ {
+  "task": "Pin the first comment from your reminder; like, save and share the post to your personal Story",
+  "frequency": "Daily",
+  "when": "After the 19:30 post",
+  "due": "",
+  "minutes": 3,
+  "status": "Daily",
+  "link": "https://www.instagram.com/resetherbalance/"
+ },
+ {
+  "task": "10 real comments as @resetherbalance on posts under 24 hours old in our niche",
+  "frequency": "Daily",
+  "when": "Any time",
+  "due": "",
+  "minutes": 15,
+  "status": "Daily",
+  "link": "https://www.instagram.com/explore/"
+ },
+ {
+  "task": "Send the GP prep sheet DM to anyone who commented RESET",
+  "frequency": "Daily",
+  "when": "Evening",
+  "due": "",
+  "minutes": 3,
+  "status": "Daily until 50 followers",
+  "link": "https://resether-balance.kit.com/0ca6b5366d"
+ },
+ {
+  "task": "Put the Kit link in the Instagram bio's website field (C6 mentions it)",
+  "frequency": "One-off",
+  "when": "Before Wed 11 Nov 19:30",
+  "due": "2026-11-11",
+  "minutes": 2,
+  "status": "To do",
+  "link": "https://resether-balance.kit.com/0ca6b5366d"
+ },
+ {
+  "task": "Set up the approved newsletter in Kit for Sun 15 Nov 19:00, or tell Claude to do it",
+  "frequency": "One-off",
+  "when": "By Sat 14 Nov",
+  "due": "2026-11-14",
+  "minutes": 15,
+  "status": "To do",
+  "link": "https://app.kit.com/"
+ },
+ {
+  "task": "Send 3 to 5 real experiences in your own words for personal posts",
+  "frequency": "One-off",
+  "when": "This week",
+  "due": "2026-11-13",
+  "minutes": 20,
+  "status": "Waiting for you",
+  "link": ""
+ },
+ {
+  "task": "Approve batch 3 (22 Nov to 5 Dec)",
+  "frequency": "Every second Friday",
+  "when": "Fri 20 Nov",
+  "due": "2026-11-20",
+  "minutes": 30,
+  "status": "Coming up",
+  "link": ""
+ },
+ {
+  "task": "Switch on ReplyRush auto-DMs for RESET",
+  "frequency": "One-off",
+  "when": "When you reach 50 followers",
+  "due": "",
+  "minutes": 10,
+  "status": "Waiting for 50 followers",
+  "link": "https://www.replyrush.com/"
+ }
+]

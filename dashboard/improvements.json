@@ -1,0 +1,83 @@
+[
+ {
+  "area": "Posting on time",
+  "now": "Posts landed up to 70 minutes late",
+  "change": "The poster waits for the exact slot",
+  "benefit": "On time, at no cost",
+  "effort": "Done by Claude",
+  "status": "Done",
+  "when": "8 Nov"
+ },
+ {
+  "area": "Dashboard",
+  "now": "Status spread across chats and docs",
+  "change": "This page, refreshed every morning",
+  "benefit": "One bookmark for everything",
+  "effort": "Done by Claude",
+  "status": "Done",
+  "when": "8 Nov"
+ },
+ {
+  "area": "RESET DMs",
+  "now": "You send each DM by hand",
+  "change": "ReplyRush sends them instantly (free, 1,500 DMs a month)",
+  "benefit": "About 5 minutes a day saved; instant replies",
+  "effort": "10 minutes, once",
+  "status": "Waiting for 50 followers",
+  "when": "At 50 followers"
+ },
+ {
+  "area": "Approvals",
+  "now": "You approve each post in chat",
+  "change": "Approve on the review page with one tap per post; it updates the scheduler",
+  "benefit": "About 20 minutes saved per batch, fewer mistakes",
+  "effort": "Claude builds it",
+  "status": "Proposed",
+  "when": "Batch 3, 20 Nov"
+ },
+ {
+  "area": "Newsletter",
+  "now": "Set up in Kit by hand every two weeks",
+  "change": "Claude creates and schedules it through Kit's API (needs a Kit API key)",
+  "benefit": "15 minutes saved every two weeks; never missed",
+  "effort": "2 minutes for you to copy the key",
+  "status": "Proposed",
+  "when": "Before 15 Nov if you add the key"
+ },
+ {
+  "area": "Stories",
+  "now": "Not posting",
+  "change": "3 Story frames a day made with each batch, posted automatically",
+  "benefit": "Daily contact with followers; replies and shares",
+  "effort": "Claude, inside the batch",
+  "status": "Proposed",
+  "when": "Batch 3"
+ },
+ {
+  "area": "Image and music costs",
+  "now": "Higgsfield Lite plan with about 6 credits left",
+  "change": "Type-led Reels and free licensed stock footage by default; Higgsfield only for the AI twin",
+  "benefit": "Lower monthly cost, same output",
+  "effort": "None",
+  "status": "Proposed",
+  "when": "Now"
+ },
+ {
+  "area": "Outbound comments",
+  "now": "15 minutes a day, by hand",
+  "change": "Keep it by hand: Instagram restricts accounts that automate comments",
+  "benefit": "Protects the account; this is the biggest growth lever right now",
+  "effort": "15 minutes a day",
+  "status": "Keep as is",
+  "when": "Ongoing"
+ },
+ {
+  "area": "Learning loop",
+  "now": "Competitor and insight pull every Friday",
+  "change": "Keep weekly, before each approval Friday",
+  "benefit": "Each batch builds on fresh data",
+  "effort": "None",
+  "status": "Keep as is",
+  "when": "Ongoing"
+ }
+]

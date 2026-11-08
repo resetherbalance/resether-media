@@ -2,6 +2,13 @@
  {
   "date": "2026-11-08",
   "type": "Request",
+  "what": "Each key number opens its plan: what we are doing to improve it, who does it and when",
+  "status": "Done",
+  "where": "Progress tab, click any number"
+ },
+ {
+  "date": "2026-11-08",
+  "type": "Request",
   "what": "Redesign the dashboard so it is easy to see what needs doing, where we are vs target, how we are performing and what is next; one checklist only; link every relevant document",
   "status": "Done",
   "where": "Whole dashboard"

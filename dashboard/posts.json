@@ -21,7 +21,8 @@
   "shares": 0,
   "follows": 0,
   "profile_visits": 0,
-  "interactions": 3
+  "interactions": 3,
+  "day": "Past"
  },
  {
   "id": "2026-11-04-R4",
@@ -45,7 +46,8 @@
   "shares": 0,
   "follows": 0,
   "profile_visits": 0,
-  "interactions": 0
+  "interactions": 0,
+  "day": "Past"
  },
  {
   "id": "2026-11-04-R4b",
@@ -70,7 +72,8 @@
   "follows": 0,
   "profile_visits": 0,
   "interactions": 0,
-  "avg_watch_s": 20.3
+  "avg_watch_s": 20.3,
+  "day": "Past"
  },
  {
   "id": "2026-11-04-C3",
@@ -94,7 +97,8 @@
   "shares": 0,
   "follows": 0,
   "profile_visits": 0,
-  "interactions": 2
+  "interactions": 2,
+  "day": "Past"
  },
  {
   "id": "2026-11-05-R1",
@@ -119,7 +123,8 @@
   "follows": 0,
   "profile_visits": 0,
   "interactions": 4,
-  "avg_watch_s": 4.1
+  "avg_watch_s": 4.1,
+  "day": "Past"
  },
  {
   "id": "2026-11-05-C2",
@@ -143,7 +148,8 @@
   "shares": 0,
   "follows": 0,
   "profile_visits": 0,
-  "interactions": 2
+  "interactions": 2,
+  "day": "Past"
  },
  {
   "id": "2026-11-06-R2",
@@ -168,7 +174,8 @@
   "follows": 0,
   "profile_visits": 0,
   "interactions": 2,
-  "avg_watch_s": 3.7
+  "avg_watch_s": 3.7,
+  "day": "Past"
  },
  {
   "id": "2026-11-07-R3",
@@ -193,7 +200,8 @@
   "follows": 0,
   "profile_visits": 0,
   "interactions": 0,
-  "avg_watch_s": 2.0
+  "avg_watch_s": 2.0,
+  "day": "Yesterday"
  },
  {
   "id": "2026-11-08-R5",
@@ -204,7 +212,8 @@
   "title": "The car is the only room where nobody needs anything from you.",
   "batch": 2,
   "approved": true,
-  "status": "Scheduled"
+  "status": "Scheduled",
+  "day": "Today"
  },
  {
   "id": "2026-11-08-S1",
@@ -215,7 +224,8 @@
   "title": "Rest was never on the list, so it never got done.",
   "batch": 2,
   "approved": true,
-  "status": "Scheduled"
+  "status": "Scheduled",
+  "day": "Today"
  },
  {
   "id": "2026-11-09-R6",
@@ -226,7 +236,8 @@
   "title": "The laptop shuts at six.",
   "batch": 2,
   "approved": true,
-  "status": "Scheduled"
+  "status": "Scheduled",
+  "day": "Tomorrow"
  },
  {
   "id": "2026-11-09-C4",
@@ -237,7 +248,8 @@
   "title": "For the days when ten minutes to wind down feels like a joke.",
   "batch": 2,
   "approved": true,
-  "status": "Scheduled"
+  "status": "Scheduled",
+  "day": "Tomorrow"
  },
  {
   "id": "2026-11-10-R7",
@@ -248,7 +260,8 @@
   "title": "\"I'm fine\" is quicker than explaining.",
   "batch": 2,
   "approved": true,
-  "status": "Scheduled"
+  "status": "Scheduled",
+  "day": "Later"
  },
  {
   "id": "2026-11-10-C5",
@@ -259,7 +272,8 @@
   "title": "You're probably the most organised person you know.",
   "batch": 2,
   "approved": true,
-  "status": "Scheduled"
+  "status": "Scheduled",
+  "day": "Later"
  },
  {
   "id": "2026-11-11-R8",
@@ -270,7 +284,8 @@
   "title": "When it's dark at 4.30, nothing tells you the day has ended.",
   "batch": 2,
   "approved": true,
-  "status": "Scheduled"
+  "status": "Scheduled",
+  "day": "Later"
  },
  {
   "id": "2026-11-11-C6",
@@ -281,7 +296,8 @@
   "title": "Ten minutes goes fast when you've never had the chance to rehearse.",
   "batch": 2,
   "approved": true,
-  "status": "Scheduled"
+  "status": "Scheduled",
+  "day": "Later"
  },
  {
   "id": "2026-11-12-R9",
@@ -292,7 +308,8 @@
   "title": "You'd never let your best friend work until 10pm every night.",
   "batch": 2,
   "approved": true,
-  "status": "Scheduled"
+  "status": "Scheduled",
+  "day": "Later"
  },
  {
   "id": "2026-11-12-S2",
@@ -303,7 +320,8 @@
   "title": "Everyone leans on you.",
   "batch": 2,
   "approved": true,
-  "status": "Scheduled"
+  "status": "Scheduled",
+  "day": "Later"
  },
  {
   "id": "2026-11-13-R10",
@@ -314,7 +332,8 @@
   "title": "It's World Kindness Day.",
   "batch": 2,
   "approved": true,
-  "status": "Scheduled"
+  "status": "Scheduled",
+  "day": "Later"
  },
  {
   "id": "2026-11-13-C7",
@@ -325,7 +344,8 @@
   "title": "It was never you.",
   "batch": 2,
   "approved": true,
-  "status": "Scheduled"
+  "status": "Scheduled",
+  "day": "Later"
  },
  {
   "id": "2026-11-14-R11",
@@ -336,7 +356,8 @@
   "title": "Nobody ever told her she was allowed to stop.",
   "batch": 2,
   "approved": true,
-  "status": "Scheduled"
+  "status": "Scheduled",
+  "day": "Later"
  },
  {
   "id": "2026-11-14-C8",
@@ -347,7 +368,8 @@
   "title": "Feeling flat at 8pm isn't ingratitude.",
   "batch": 2,
   "approved": true,
-  "status": "Scheduled"
+  "status": "Scheduled",
+  "day": "Later"
  },
  {
   "id": "2026-11-15-R12",
@@ -358,7 +380,8 @@
   "title": "If you've ever added things you've already done to your list so you can tick them off, this one's for you.",
   "batch": 2,
   "approved": true,
-  "status": "Scheduled"
+  "status": "Scheduled",
+  "day": "Later"
  },
  {
   "id": "2026-11-15-C9",
@@ -369,7 +392,8 @@
   "title": "For many of us it starts with small things we put down to stress.",
   "batch": 2,
   "approved": true,
-  "status": "Scheduled"
+  "status": "Scheduled",
+  "day": "Later"
  },
  {
   "id": "2026-11-16-R13",
@@ -380,7 +404,8 @@
   "title": "The Christmas list in your head is a second job with no clock-off.",
   "batch": 2,
   "approved": true,
-  "status": "Scheduled"
+  "status": "Scheduled",
+  "day": "Later"
  },
  {
   "id": "2026-11-16-S3",
@@ -391,7 +416,8 @@
   "title": "There will always be one more thing.",
   "batch": 2,
   "approved": true,
-  "status": "Scheduled"
+  "status": "Scheduled",
+  "day": "Later"
  },
  {
   "id": "2026-11-17-R14",
@@ -402,7 +428,8 @@
   "title": "You waited three weeks, then heard yourself say \"I'm fine, a bit tired\".",
   "batch": 2,
   "approved": true,
-  "status": "Scheduled"
+  "status": "Scheduled",
+  "day": "Later"
  },
  {
   "id": "2026-11-17-C10",
@@ -413,7 +440,8 @@
   "title": "\"I'm fine\" is the most-used sentence in the country after 6pm.",
   "batch": 2,
   "approved": true,
-  "status": "Scheduled"
+  "status": "Scheduled",
+  "day": "Later"
  },
  {
   "id": "2026-11-18-R15",
@@ -424,7 +452,8 @@
   "title": "None of these are character flaws.",
   "batch": 2,
   "approved": true,
-  "status": "Scheduled"
+  "status": "Scheduled",
+  "day": "Later"
  },
  {
   "id": "2026-11-18-C11",
@@ -435,7 +464,8 @@
   "title": "Hard weeks are when habits matter most and feel hardest.",
   "batch": 2,
   "approved": true,
-  "status": "Scheduled"
+  "status": "Scheduled",
+  "day": "Later"
  },
  {
   "id": "2026-11-19-R16",
@@ -446,7 +476,8 @@
   "title": "For most of us there's no gap: work ends and the next shift starts in the hallway.",
   "batch": 2,
   "approved": true,
-  "status": "Scheduled"
+  "status": "Scheduled",
+  "day": "Later"
  },
  {
   "id": "2026-11-19-C12",
@@ -457,7 +488,8 @@
   "title": "Knowing the words makes the conversation easier.",
   "batch": 2,
   "approved": true,
-  "status": "Scheduled"
+  "status": "Scheduled",
+  "day": "Later"
  },
  {
   "id": "2026-11-20-R17",
@@ -468,7 +500,8 @@
   "title": "Friday at five, and instead of relief you feel flat.",
   "batch": 2,
   "approved": true,
-  "status": "Scheduled"
+  "status": "Scheduled",
+  "day": "Later"
  },
  {
   "id": "2026-11-20-S4",
@@ -479,7 +512,8 @@
   "title": "Behind on what, exactly?",
   "batch": 2,
   "approved": true,
-  "status": "Scheduled"
+  "status": "Scheduled",
+  "day": "Later"
  },
  {
   "id": "2026-11-21-R18",
@@ -490,7 +524,8 @@
   "title": "Save this for tomorrow night.",
   "batch": 2,
   "approved": true,
-  "status": "Scheduled"
+  "status": "Scheduled",
+  "day": "Later"
  },
  {
   "id": "2026-11-21-C13",
@@ -501,6 +536,7 @@
   "title": "Two weeks of learning to clock off.",
   "batch": 2,
   "approved": true,
-  "status": "Scheduled"
+  "status": "Scheduled",
+  "day": "Later"
  }
 ]

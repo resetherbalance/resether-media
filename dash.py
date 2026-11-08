@@ -92,6 +92,19 @@ for it in S['items']:
         row['follows'] = m.get('follows', 0)
         row['profile_visits'] = m.get('profile_visits', 0)
         row['interactions'] = row['likes'] + row['comments'] + row['saves'] + row['shares']
+        row['engagement_rate'] = round(row['interactions'] / row['reach'], 4) if row['reach'] else None
+        # comment quality: counts only, no comment text or usernames are stored
+        cm = get(f"{p['media_id']}/comments", fields='text,username,replies{username}', limit=100)
+        if 'data' in cm:
+            theirs = [c for c in cm['data'] if (c.get('username') or '').lower() != 'resetherbalance']
+            row['comments_from_others'] = len(theirs)
+            row['quality_comments'] = sum(1 for c in theirs if len(re.findall(r"[A-Za-z']+", c.get('text') or '')) >= 5)
+            row['reset_comments'] = sum(1 for c in theirs if re.search(r'\breset\b', c.get('text') or '', re.I))
+            row['replied_comments'] = sum(1 for c in theirs if any((r.get('username') or '').lower() == 'resetherbalance' for r in (c.get('replies') or {}).get('data', [])))
+        elif it['id'] in prev:
+            for k in ['comments_from_others', 'quality_comments', 'reset_comments', 'replied_comments']:
+                if k in prev[it['id']]:
+                    row[k] = prev[it['id']][k]
         if 'ig_reels_avg_watch_time' in m:
             row['avg_watch_s'] = round(m['ig_reels_avg_watch_time'] / 1000, 1)
     else:
@@ -205,6 +218,13 @@ summary = [{
     'avg_reach_reel': avg(reels, 'reach'), 'avg_reach_feed': avg(cars, 'reach'),
     'avg_watch_s': avg([r for r in reels if 'avg_watch_s' in r], 'avg_watch_s'),
     'avg_minutes_late': avg(live, 'minutes_late'),
+    'comments_from_others': sum(p.get('comments_from_others', 0) for p in live),
+    'quality_comments': sum(p.get('quality_comments', 0) for p in live),
+    'reset_comments': sum(p.get('reset_comments', 0) for p in live),
+    'replied_comments': sum(p.get('replied_comments', 0) for p in live),
+    'total_saves': sum(p.get('saves', 0) for p in live),
+    'total_shares': sum(p.get('shares', 0) for p in live),
+    'total_follows_from_posts': sum(p.get('follows', 0) for p in live),
     'next_title': nxt.get('title', ''), 'next_when': (nxt.get('weekday', '') + ' ' + nxt.get('date', '')[8:] + ' ' + nxt.get('slot', '')).strip(),
     'next_format': nxt.get('format', ''),
     'to_reach_50': max(0, 50 - f_now), 'to_reach_10k': max(0, 10000 - f_now),

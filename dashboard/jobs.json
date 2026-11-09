@@ -7,7 +7,7 @@
   "who": "Automatic",
   "workflow": "Post to Instagram",
   "link": "https://github.com/resetherbalance/resether-media/actions/workflows/post.yml",
-  "last_run": "2026-11-08 17:52",
+  "last_run": "2026-11-09 05:48",
   "last_result": "OK"
  },
  {
@@ -18,7 +18,7 @@
   "who": "Automatic",
   "workflow": "Dashboard data",
   "link": "https://github.com/resetherbalance/resether-media/actions/workflows/dash.yml",
-  "last_run": "2026-11-08 17:58",
+  "last_run": "2026-11-08 17:59",
   "last_result": "OK"
  },
  {
@@ -73,8 +73,8 @@
   "who": "Automatic",
   "workflow": "Fetch approved media",
   "link": "https://github.com/resetherbalance/resether-media/actions/workflows/fetch-media.yml",
-  "last_run": "2026-11-06 12:43",
-  "last_result": "OK"
+  "last_run": "",
+  "last_result": ""
  },
  {
   "job": "Trial Reels check",

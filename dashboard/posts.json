@@ -375,8 +375,8 @@
   "minutes_late": 0,
   "permalink": "https://www.instagram.com/reel/Dfj6Og_gMNi/",
   "removed": false,
-  "reach": 66,
-  "views": 76,
+  "reach": 70,
+  "views": 78,
   "likes": 0,
   "comments": 0,
   "saves": 0,
@@ -389,8 +389,8 @@
   "quality_comments": 0,
   "reset_comments": 0,
   "replied_comments": 0,
-  "avg_watch_s": 2.9,
-  "day": "Yesterday"
+  "avg_watch_s": 2.7,
+  "day": "Past"
  },
  {
   "id": "2026-11-10-C5",
@@ -420,7 +420,7 @@
   "quality_comments": 0,
   "reset_comments": 0,
   "replied_comments": 0,
-  "day": "Yesterday"
+  "day": "Past"
  },
  {
   "id": "2026-11-11-R8",
@@ -431,8 +431,27 @@
   "title": "When it's dark at 4.30, nothing tells you the day has ended.",
   "batch": 2,
   "approved": true,
-  "status": "Scheduled",
-  "day": "Today"
+  "status": "Posted",
+  "posted_at": "2026-11-11 12:30",
+  "minutes_late": 0,
+  "permalink": "https://www.instagram.com/reel/DfmfBZsiddz/",
+  "removed": false,
+  "reach": 76,
+  "views": 81,
+  "likes": 0,
+  "comments": 0,
+  "saves": 0,
+  "shares": 0,
+  "follows": 0,
+  "profile_visits": 0,
+  "interactions": 0,
+  "engagement_rate": 0.0,
+  "comments_from_others": 0,
+  "quality_comments": 0,
+  "reset_comments": 0,
+  "replied_comments": 0,
+  "avg_watch_s": 1.6,
+  "day": "Yesterday"
  },
  {
   "id": "2026-11-11-C6",
@@ -443,8 +462,26 @@
   "title": "Ten minutes goes fast when you've never had the chance to rehearse.",
   "batch": 2,
   "approved": true,
-  "status": "Scheduled",
-  "day": "Today"
+  "status": "Posted",
+  "posted_at": "2026-11-11 19:39",
+  "minutes_late": 9,
+  "permalink": "https://www.instagram.com/p/DfnQNtljMJd/",
+  "removed": false,
+  "reach": 0,
+  "views": 0,
+  "likes": 0,
+  "comments": 0,
+  "saves": 0,
+  "shares": 0,
+  "follows": 0,
+  "profile_visits": 0,
+  "interactions": 0,
+  "engagement_rate": null,
+  "comments_from_others": 0,
+  "quality_comments": 0,
+  "reset_comments": 0,
+  "replied_comments": 0,
+  "day": "Yesterday"
  },
  {
   "id": "2026-11-12-R9",
@@ -456,7 +493,7 @@
   "batch": 2,
   "approved": true,
   "status": "Scheduled",
-  "day": "Tomorrow"
+  "day": "Today"
  },
  {
   "id": "2026-11-12-S2",
@@ -468,7 +505,7 @@
   "batch": 2,
   "approved": true,
   "status": "Scheduled",
-  "day": "Tomorrow"
+  "day": "Today"
  },
  {
   "id": "2026-11-13-R10",
@@ -480,7 +517,7 @@
   "batch": 2,
   "approved": true,
   "status": "Scheduled",
-  "day": "Later"
+  "day": "Tomorrow"
  },
  {
   "id": "2026-11-13-C7",
@@ -492,7 +529,7 @@
   "batch": 2,
   "approved": true,
   "status": "Scheduled",
-  "day": "Later"
+  "day": "Tomorrow"
  },
  {
   "id": "2026-11-14-R11",

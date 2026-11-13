@@ -8,7 +8,7 @@ IG = json.load(open('schedule.json'))['ig_user_id']
 ACCOUNTS = ['menopause_doctor', 'drmaryclaire', 'drjengunter', 'dr_naomipotter', 'drpunamkrishan',
             'whatthemenopause', 'libbystevenson.wellbeing', 'nedratawwab', 'thenapministry', 'jamesclear',
             'drjuliesmith', 'drstacysims', 'life.withkate',
-            'melrobbins', 'davinamccall', 'drgabriellelyon', 'drmindypelz']
+            'melrobbins', 'davinamccall', 'drgabriellelyon']
 
 def get(path, **params):
     params['access_token'] = TOKEN

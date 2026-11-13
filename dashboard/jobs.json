@@ -7,7 +7,7 @@
   "who": "Automatic",
   "workflow": "Post to Instagram",
   "link": "https://github.com/resetherbalance/resether-media/actions/workflows/post.yml",
-  "last_run": "2026-11-13 06:39",
+  "last_run": "2026-11-13 12:56",
   "last_result": "OK"
  },
  {
@@ -18,7 +18,7 @@
   "who": "Automatic",
   "workflow": "Dashboard data",
   "link": "https://github.com/resetherbalance/resether-media/actions/workflows/dash.yml",
-  "last_run": "2026-11-13 06:44",
+  "last_run": "2026-11-13 07:38",
   "last_result": "OK"
  },
  {
@@ -46,7 +46,7 @@
  {
   "job": "Viral watch",
   "does": "Claude researches what went viral this week in burnout, midlife and working-women wellbeing (hooks, formats, sounds, topics) and adds the patterns to Learning and the viral bets for the next batch",
-  "when": "Mondays 10:47 UK",
+  "when": "1st and 15th of the month, 10:47 UK",
   "tool": "Claude scheduled task + web research + competitor pull",
   "who": "Claude",
   "workflow": "",
@@ -57,7 +57,7 @@
  {
   "job": "Evening engagement reminder",
   "does": "Sends your 20-minute checklist with a ready first comment to pin",
-  "when": "Daily 19:47 UK",
+  "when": "Mon, Wed, Fri 19:47 UK",
   "tool": "Claude scheduled task",
   "who": "Automatic, to your phone",
   "workflow": "",

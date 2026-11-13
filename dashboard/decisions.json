@@ -2,6 +2,13 @@
  {
   "date": "2026-11-13",
   "type": "Decision",
+  "what": "Batch 3: all 6 posts are Reels until 500 followers (carousels back after); hook and movement in the first half-second, 6 to 8 second looping Reels, more unfair-contrast hooks; every Reel ends with a reason to send it and a reason to follow",
+  "status": "In force",
+  "where": "Batch 3 plan; overrides the 2 Reels + 1 carousel mix in the instructions until 500 followers"
+ },
+ {
+  "date": "2026-11-13",
+  "type": "Decision",
   "what": "No paid boosting until at least January. Claude still flags Reels that would be worth boosting, so you know which ones to push when budget allows",
   "status": "In force",
   "where": "Mon, Wed, Fri evening reminder"

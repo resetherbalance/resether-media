@@ -2,6 +2,13 @@
  {
   "date": "2026-11-13",
   "type": "Decision",
+  "what": "Boost a Reel only once it has proven itself organically: 2x our median Reel reach in its first 48 hours, average watch at least 5 seconds, and at least 1 share or save per 50 people reached. Budget £5 to £10 a day, women 35+ in the UK",
+  "status": "In force",
+  "where": "Weekly check on the dashboard; Claude flags any Reel that qualifies"
+ },
+ {
+  "date": "2026-11-13",
+  "type": "Decision",
   "what": "Save Claude tokens for revenue work. From Batch 3 (22 Nov): 3 posts a week, Mon, Wed and Fri at 19:30 (2 Reels, 1 carousel or text post, Stories the same days); evening reminder Mon, Wed, Fri; dashboard update Mon, Wed, Fri; viral watch on the 1st and 15th; a fresh chat per batch. Honest target 1,000 followers by 31 Jan; 10,000 stays the stretch goal",
   "status": "In force",
   "where": "Scheduled tasks, goal panel, Batch 3 plan"

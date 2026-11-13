@@ -173,8 +173,8 @@
   "hypothesis": "A calm voice in the first second keeps viewers longer than text on screen with music",
   "metric": "Watch time",
   "posts": "2 Reels with voiceover in Batch 3 vs text-only Reels (voice needs your OK)",
-  "start": "2026-11-22",
-  "end": "2026-12-05",
+  "start": "2026-12-01",
+  "end": "2026-12-31",
   "status": "Planned",
   "result": "",
   "decision": ""
@@ -199,9 +199,9 @@
   "posts": "2 a week from 23 Nov; Claude drafts the outreach messages for you",
   "start": "2026-11-23",
   "end": "2027-01-31",
-  "status": "Planned",
+  "status": "Dropped",
   "result": "",
-  "decision": ""
+  "decision": "No time for collabs (Sylwia, 13 Nov)"
  },
  {
   "id": "T18",
@@ -212,6 +212,18 @@
   "start": "2026-11-22",
   "end": "2026-12-05",
   "status": "Planned",
+  "result": "",
+  "decision": ""
+ },
+ {
+  "id": "T19",
+  "test": "Talking AI twin Reels vs text Reels",
+  "hypothesis": "A clearly labelled talking version of Sylwia's AI twin gets more watch time and follows than text Reels",
+  "metric": "Watch time, reach, follows",
+  "posts": "2 Reels in December; needs 8 to 15 photos Sylwia likes, optional voice sample, Higgsfield top-up",
+  "start": "2026-12-01",
+  "end": "2026-12-31",
+  "status": "Parked until December",
   "result": "",
   "decision": ""
  }

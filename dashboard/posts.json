@@ -84,7 +84,8 @@
   "reset_comments": 0,
   "replied_comments": 0,
   "avg_watch_s": 17.9,
-  "day": "Past"
+  "day": "Past",
+  "boost_ready": false
  },
  {
   "id": "2026-11-04-C3",
@@ -145,7 +146,8 @@
   "reset_comments": 0,
   "replied_comments": 0,
   "avg_watch_s": 4.1,
-  "day": "Past"
+  "day": "Past",
+  "boost_ready": false
  },
  {
   "id": "2026-11-05-C2",
@@ -206,7 +208,8 @@
   "reset_comments": 0,
   "replied_comments": 0,
   "avg_watch_s": 3.7,
-  "day": "Past"
+  "day": "Past",
+  "boost_ready": false
  },
  {
   "id": "2026-11-07-R3",
@@ -237,7 +240,8 @@
   "reset_comments": 0,
   "replied_comments": 0,
   "avg_watch_s": 2.1,
-  "day": "Past"
+  "day": "Past",
+  "boost_ready": false
  },
  {
   "id": "2026-11-08-R5",
@@ -268,7 +272,8 @@
   "reset_comments": 0,
   "replied_comments": 0,
   "avg_watch_s": 3.0,
-  "day": "Past"
+  "day": "Past",
+  "boost_ready": false
  },
  {
   "id": "2026-11-08-S1",
@@ -329,7 +334,8 @@
   "reset_comments": 0,
   "replied_comments": 0,
   "avg_watch_s": 2.7,
-  "day": "Past"
+  "day": "Past",
+  "boost_ready": false
  },
  {
   "id": "2026-11-09-C4",
@@ -390,7 +396,8 @@
   "reset_comments": 0,
   "replied_comments": 0,
   "avg_watch_s": 2.8,
-  "day": "Past"
+  "day": "Past",
+  "boost_ready": false
  },
  {
   "id": "2026-11-10-C5",
@@ -451,7 +458,8 @@
   "reset_comments": 0,
   "replied_comments": 0,
   "avg_watch_s": 2.0,
-  "day": "Past"
+  "day": "Past",
+  "boost_ready": false
  },
  {
   "id": "2026-11-11-C6",
@@ -512,7 +520,8 @@
   "reset_comments": 0,
   "replied_comments": 0,
   "avg_watch_s": 5.7,
-  "day": "Yesterday"
+  "day": "Yesterday",
+  "boost_ready": false
  },
  {
   "id": "2026-11-12-S2",

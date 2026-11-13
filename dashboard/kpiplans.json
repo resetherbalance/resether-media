@@ -2,7 +2,7 @@
  {
   "kpi": "growth",
   "name": "Followers vs the plan line",
-  "why": "At 6 followers Instagram has almost no signal to show our posts to new people. Content alone will not get us to 10,000 by 31 January; we need borrowed audiences (collabs), daily outbound activity and a few viral posts.",
+  "why": "At single-digit followers Instagram has almost no signal to show our posts to new people. Without collabs, growth depends on strong hooks, your daily activity, a few posts that go viral, and boosting Reels that have already proven themselves.",
   "plan": [
    {
     "action": "10 real comments a day from @resetherbalance on posts under 24 hours old in our niche",
@@ -13,16 +13,6 @@
     "action": "Share every post to your personal Story and send it to one friend",
     "who": "You",
     "when": "Daily"
-   },
-   {
-    "action": "Draft collab outreach to 10 similar-sized accounts (1k to 20k followers) for you to send",
-    "who": "Claude",
-    "when": "By Fri 20 Nov"
-   },
-   {
-    "action": "Two collab posts a week (test T17)",
-    "who": "You and Claude",
-    "when": "From 23 Nov"
    },
    {
     "action": "Three viral bets a week, picked from the Monday viral watch (test T16)",
@@ -38,9 +28,19 @@
     "action": "Trial Reels switched on as soon as Instagram allows",
     "who": "Claude",
     "when": "Try at 200 followers, then 1,000"
+   },
+   {
+    "action": "Boost a Reel at £5 to £10 a day only when it proves itself organically (2x usual Reel reach, 5s+ watch, 1 save or share per 50 reached). The Mon, Wed and Fri reminder tells you when one qualifies",
+    "who": "You",
+    "when": "From now, when a Reel qualifies"
+   },
+   {
+    "action": "Talking AI twin Reels test (T19)",
+    "who": "Claude and you",
+    "when": "December"
    }
   ],
-  "tests": "T6, T7, T16, T17"
+  "tests": "T6, T7, T16"
  },
  {
   "kpi": "reel",
@@ -99,14 +99,9 @@
     "action": "First slide asks for her answer or names a belief she holds (tests T1, T11)",
     "who": "Claude",
     "when": "Running now"
-   },
-   {
-    "action": "Collab carousels, shown to both audiences (test T17)",
-    "who": "You and Claude",
-    "when": "From 23 Nov"
    }
   ],
-  "tests": "T1, T4, T11, T17"
+  "tests": "T1, T4, T11"
  },
  {
   "kpi": "watch",

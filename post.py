@@ -96,7 +96,15 @@ def main():
             print(f'skip {iid}: more than 6 hours late, needs a human decision')
             continue
         print(f'building {iid} ({item["type"]})')
-        cid = build(item)
+        for attempt in range(3):  # Instagram sometimes rejects an upload once; retry before giving up
+            try:
+                cid = build(item)
+                break
+            except (SystemExit, Exception) as e:  # noqa: BLE001
+                print(f'attempt {attempt + 1} failed for {iid}: {e}')
+                if attempt == 2:
+                    raise
+                time.sleep(90)
         if DRY:
             print(f'DRY RUN ok: {iid} container {cid} is ready, not published')
             continue

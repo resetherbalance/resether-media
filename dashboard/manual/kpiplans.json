@@ -1,53 +1,203 @@
 [
- {"kpi": "growth", "name": "Followers vs the plan line", "why": "At 6 followers Instagram has almost no signal to show our posts to new people. Content alone will not get us to 10,000 by 31 January; we need borrowed audiences (collabs), daily outbound activity and a few viral posts.",
+ {
+  "kpi": "growth",
+  "name": "Followers vs the plan line",
+  "why": "At single-digit followers Instagram has almost no signal to show our posts to new people. Without collabs, growth depends on strong hooks, your daily activity, a few posts that go viral, and boosting Reels that have already proven themselves.",
   "plan": [
-   {"action": "10 real comments a day from @resetherbalance on posts under 24 hours old in our niche", "who": "You", "when": "Daily, from today"},
-   {"action": "Share every post to your personal Story and send it to one friend", "who": "You", "when": "Daily"},
-   {"action": "Draft collab outreach to 10 similar-sized accounts (1k to 20k followers) for you to send", "who": "Claude", "when": "By Fri 20 Nov"},
-   {"action": "Two collab posts a week (test T17)", "who": "You and Claude", "when": "From 23 Nov"},
-   {"action": "Three viral bets a week, picked from the Monday viral watch (test T16)", "who": "Claude", "when": "From Batch 3, 22 Nov"},
-   {"action": "Story frames every day to bring new followers back (test T7)", "who": "Claude", "when": "From 22 Nov"},
-   {"action": "Trial Reels switched on as soon as Instagram allows", "who": "Claude", "when": "Try at 200 followers, then 1,000"}
-  ], "tests": "T6, T7, T16, T17"},
- {"kpi": "reel", "name": "Average Reel reach", "why": "Our Reels reach 41 to 143 accounts. Reels are the format Instagram shows to non-followers, so this is where growth comes from. Ours start slowly: the hook takes too long and the beats are long.",
+   {
+    "action": "10 real comments a day from @resetherbalance on posts under 24 hours old in our niche",
+    "who": "You",
+    "when": "Daily, from today"
+   },
+   {
+    "action": "Share every post to your personal Story and send it to one friend",
+    "who": "You",
+    "when": "Daily"
+   },
+   {
+    "action": "Three viral bets a week, picked from the Monday viral watch (test T16)",
+    "who": "Claude",
+    "when": "From Batch 3, 22 Nov"
+   },
+   {
+    "action": "Story frames every day to bring new followers back (test T7)",
+    "who": "Claude",
+    "when": "From 22 Nov"
+   },
+   {
+    "action": "Trial Reels switched on as soon as Instagram allows",
+    "who": "Claude",
+    "when": "Try at 200 followers, then 1,000"
+   },
+   {
+    "action": "Boost a Reel at £5 to £10 a day only when it proves itself organically (2x usual Reel reach, 5s+ watch, 1 save or share per 50 reached). The Mon, Wed and Fri reminder tells you when one qualifies",
+    "who": "You",
+    "when": "From now, when a Reel qualifies"
+   },
+   {
+    "action": "Talking AI twin Reels test (T19)",
+    "who": "Claude and you",
+    "when": "December"
+   }
+  ],
+  "tests": "T6, T7, T16"
+ },
+ {
+  "kpi": "reel",
+  "name": "Average Reel reach",
+  "why": "Our Reels reach 41 to 143 accounts. Reels are the format Instagram shows to non-followers, so this is where growth comes from. Ours start slowly: the hook takes too long and the beats are long.",
   "plan": [
-   {"action": "A number, a time or a question on screen in the first second (test T13)", "who": "Claude", "when": "Batch 3"},
-   {"action": "Faster Reels: 7 to 12 seconds, each text beat 1 to 1.5 seconds, ending that loops back to the start", "who": "Claude", "when": "Batch 3"},
-   {"action": "\"Anyone else...?\" humour and story-opener Reels, which win for competitors (tests T2, T12)", "who": "Claude", "when": "Running now"},
-   {"action": "End every Reel with a reason to send it (\"Send this to the friend who...\")", "who": "Claude", "when": "Batch 3"},
-   {"action": "Monday 07:30 commute slot tested against 12:30 (test T3)", "who": "Claude", "when": "Running now"}
-  ], "tests": "T2, T3, T12, T13, T15, T16"},
- {"kpi": "feed", "name": "Average carousel and static reach", "why": "Carousels and statics reach almost only our 6 followers. Instagram rarely shows them to new people while the account is this small.",
+   {
+    "action": "A number, a time or a question on screen in the first second (test T13)",
+    "who": "Claude",
+    "when": "Batch 3"
+   },
+   {
+    "action": "Faster Reels: 7 to 12 seconds, each text beat 1 to 1.5 seconds, ending that loops back to the start",
+    "who": "Claude",
+    "when": "Batch 3"
+   },
+   {
+    "action": "\"Anyone else...?\" humour and story-opener Reels, which win for competitors (tests T2, T12)",
+    "who": "Claude",
+    "when": "Running now"
+   },
+   {
+    "action": "End every Reel with a reason to send it (\"Send this to the friend who...\")",
+    "who": "Claude",
+    "when": "Batch 3"
+   },
+   {
+    "action": "Monday 07:30 commute slot tested against 12:30 (test T3)",
+    "who": "Claude",
+    "when": "Running now"
+   }
+  ],
+  "tests": "T2, T3, T12, T13, T15, T16"
+ },
+ {
+  "kpi": "feed",
+  "name": "Average carousel and static reach",
+  "why": "Carousels and statics reach almost only our 6 followers. Instagram rarely shows them to new people while the account is this small.",
   "plan": [
-   {"action": "Share every carousel to your Story so followers see it in the first hour", "who": "You", "when": "Daily"},
-   {"action": "Fewer carousels: 3 a week instead of 5, with the 2 freed slots used for Reels", "who": "Claude", "when": "Batch 3, needs your OK"},
-   {"action": "Each carousel gets a Reel that points to it (\"the full list is in today's post\")", "who": "Claude", "when": "Batch 3"},
-   {"action": "First slide asks for her answer or names a belief she holds (tests T1, T11)", "who": "Claude", "when": "Running now"},
-   {"action": "Collab carousels, shown to both audiences (test T17)", "who": "You and Claude", "when": "From 23 Nov"}
-  ], "tests": "T1, T4, T11, T17"},
- {"kpi": "watch", "name": "Average Reel watch time", "why": "On track overall, but the early Reels lost viewers in 2 to 4 seconds. Keep what works.",
+   {
+    "action": "Share every carousel to your Story so followers see it in the first hour",
+    "who": "You",
+    "when": "Daily"
+   },
+   {
+    "action": "Fewer carousels: 3 a week instead of 5, with the 2 freed slots used for Reels",
+    "who": "Claude",
+    "when": "Batch 3, needs your OK"
+   },
+   {
+    "action": "Each carousel gets a Reel that points to it (\"the full list is in today's post\")",
+    "who": "Claude",
+    "when": "Batch 3"
+   },
+   {
+    "action": "First slide asks for her answer or names a belief she holds (tests T1, T11)",
+    "who": "Claude",
+    "when": "Running now"
+   }
+  ],
+  "tests": "T1, T4, T11"
+ },
+ {
+  "kpi": "watch",
+  "name": "Average Reel watch time",
+  "why": "On track overall, but the early Reels lost viewers in 2 to 4 seconds. Keep what works.",
   "plan": [
-   {"action": "Keep Reels short (7 to 12 seconds) with readable text beats", "who": "Claude", "when": "Every batch"},
-   {"action": "Story-opener hooks to hold viewers to the end (test T12)", "who": "Claude", "when": "From 14 Nov"},
-   {"action": "Voiceover tested against text only (test T15)", "who": "Claude", "when": "Batch 3, needs your OK"}
-  ], "tests": "T12, T15"},
- {"kpi": "eng", "name": "Engagement rate", "why": "Just under green. People who see our posts react, but few save or share them, and saves and shares are what Instagram rewards most.",
+   {
+    "action": "Keep Reels short (7 to 12 seconds) with readable text beats",
+    "who": "Claude",
+    "when": "Every batch"
+   },
+   {
+    "action": "Story-opener hooks to hold viewers to the end (test T12)",
+    "who": "Claude",
+    "when": "From 14 Nov"
+   },
+   {
+    "action": "Voiceover tested against text only (test T15)",
+    "who": "Claude",
+    "when": "Batch 3, needs your OK"
+   }
+  ],
+  "tests": "T12, T15"
+ },
+ {
+  "kpi": "eng",
+  "name": "Engagement rate",
+  "why": "Just under green. People who see our posts react, but few save or share them, and saves and shares are what Instagram rewards most.",
   "plan": [
-   {"action": "First line asks for her answer, and you pin a first comment with a question (test T1)", "who": "Claude and you", "when": "Running now"},
-   {"action": "Reply to every comment within 30 minutes of the 19:30 post", "who": "You", "when": "Daily"},
-   {"action": "Two saveable how-to carousels a batch, each with the RESET keyword (test T4)", "who": "Claude", "when": "Running now"},
-   {"action": "\"I saw this and had to share\" reaction posts for shares (test T10)", "who": "Claude", "when": "Batch 3"}
-  ], "tests": "T1, T4, T10, T11"},
- {"kpi": "quality", "name": "Comment quality", "why": "Half of the comments so far are a real sentence. Real conversations are what turn followers into buyers later.",
+   {
+    "action": "First line asks for her answer, and you pin a first comment with a question (test T1)",
+    "who": "Claude and you",
+    "when": "Running now"
+   },
+   {
+    "action": "Reply to every comment within 30 minutes of the 19:30 post",
+    "who": "You",
+    "when": "Daily"
+   },
+   {
+    "action": "Two saveable how-to carousels a batch, each with the RESET keyword (test T4)",
+    "who": "Claude",
+    "when": "Running now"
+   },
+   {
+    "action": "\"I saw this and had to share\" reaction posts for shares (test T10)",
+    "who": "Claude",
+    "when": "Batch 3"
+   }
+  ],
+  "tests": "T1, T4, T10, T11"
+ },
+ {
+  "kpi": "quality",
+  "name": "Comment quality",
+  "why": "Half of the comments so far are a real sentence. Real conversations are what turn followers into buyers later.",
   "plan": [
-   {"action": "Questions she can answer in one sentence (\"What time did you actually stop working yesterday?\")", "who": "Claude", "when": "Running now"},
-   {"action": "Reply to each comment with a question back, so the thread keeps going", "who": "You", "when": "Daily"},
-   {"action": "Pin the best comment under each post", "who": "You", "when": "Daily"},
-   {"action": "Myth posts that invite a story (test T11)", "who": "Claude", "when": "Batch 3"}
-  ], "tests": "T1, T11"},
- {"kpi": "late", "name": "Posting on time", "why": "Fixed on 8 Nov: the poster now waits for the exact slot. The average still includes the late posts from before the fix, so it will turn green as new posts go out on time.",
+   {
+    "action": "Questions she can answer in one sentence (\"What time did you actually stop working yesterday?\")",
+    "who": "Claude",
+    "when": "Running now"
+   },
+   {
+    "action": "Reply to each comment with a question back, so the thread keeps going",
+    "who": "You",
+    "when": "Daily"
+   },
+   {
+    "action": "Pin the best comment under each post",
+    "who": "You",
+    "when": "Daily"
+   },
+   {
+    "action": "Myth posts that invite a story (test T11)",
+    "who": "Claude",
+    "when": "Batch 3"
+   }
+  ],
+  "tests": "T1, T11"
+ },
+ {
+  "kpi": "late",
+  "name": "Posting on time",
+  "why": "Fixed on 8 Nov: the poster now waits for the exact slot. The average still includes the late posts from before the fix, so it will turn green as new posts go out on time.",
   "plan": [
-   {"action": "Poster waits for the exact slot instead of GitHub's hourly timer", "who": "Claude", "when": "Done, 8 Nov"},
-   {"action": "Check the next 5 posts land within 5 minutes", "who": "Claude", "when": "By 11 Nov"}
-  ], "tests": ""}
+   {
+    "action": "Poster waits for the exact slot instead of GitHub's hourly timer",
+    "who": "Claude",
+    "when": "Done, 8 Nov"
+   },
+   {
+    "action": "Check the next 5 posts land within 5 minutes",
+    "who": "Claude",
+    "when": "By 11 Nov"
+   }
+  ],
+  "tests": ""
+ }
 ]

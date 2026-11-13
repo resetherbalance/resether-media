@@ -119,6 +119,15 @@ for it in S['items']:
     d = (local.date() - NOW.astimezone(UK).date()).days
     row['day'] = 'Today' if d == 0 else 'Tomorrow' if d == 1 else 'Yesterday' if d == -1 else ('Past' if d < 0 else 'Later')
     posts.append(row)
+# Boost check: a Reel earns a boost only after it proves itself organically (Sylwia, 13 Nov)
+reel_reach = sorted(p.get('reach', 0) for p in posts if p.get('status') == 'Posted' and p['format'] == 'Reel')
+median_reel = reel_reach[len(reel_reach) // 2] if reel_reach else 0
+for p in posts:
+    if p.get('status') == 'Posted' and p['format'] == 'Reel' and p.get('reach'):
+        age_h = (NOW - dt.datetime.strptime(p['posted_at'], '%Y-%m-%d %H:%M').replace(tzinfo=UK)).total_seconds() / 3600
+        p['boost_ready'] = bool(age_h <= 7 * 24 and p['reach'] >= 2 * max(1, median_reel)
+                                and p.get('avg_watch_s', 0) >= 5
+                                and (p.get('saves', 0) + p.get('shares', 0)) * 50 >= p['reach'])
 write('posts', posts)
 
 # ---------- account: follower history, one row a day ----------

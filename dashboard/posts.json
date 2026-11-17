@@ -706,7 +706,7 @@
   "reset_comments": 0,
   "replied_comments": 0,
   "avg_watch_s": 2.5,
-  "day": "Yesterday",
+  "day": "Past",
   "boost_ready": false
  },
  {
@@ -737,7 +737,7 @@
   "quality_comments": 0,
   "reset_comments": 0,
   "replied_comments": 0,
-  "day": "Yesterday"
+  "day": "Past"
  },
  {
   "id": "2026-11-16-R13",
@@ -748,8 +748,28 @@
   "title": "The Christmas list in your head is a second job with no clock-off.",
   "batch": 2,
   "approved": true,
-  "status": "Scheduled",
-  "day": "Today"
+  "status": "Posted",
+  "posted_at": "2026-11-16 08:45",
+  "minutes_late": 76,
+  "permalink": "https://www.instagram.com/reel/Dfy9UfiAQul/",
+  "removed": false,
+  "reach": 5,
+  "views": 4,
+  "likes": 0,
+  "comments": 0,
+  "saves": 0,
+  "shares": 0,
+  "follows": 0,
+  "profile_visits": 0,
+  "interactions": 0,
+  "engagement_rate": 0.0,
+  "comments_from_others": 0,
+  "quality_comments": 0,
+  "reset_comments": 0,
+  "replied_comments": 0,
+  "avg_watch_s": 12.2,
+  "day": "Yesterday",
+  "boost_ready": false
  },
  {
   "id": "2026-11-16-S3",
@@ -760,8 +780,26 @@
   "title": "There will always be one more thing.",
   "batch": 2,
   "approved": true,
-  "status": "Scheduled",
-  "day": "Today"
+  "status": "Posted",
+  "posted_at": "2026-11-16 19:36",
+  "minutes_late": 7,
+  "permalink": "https://www.instagram.com/p/Df0H0XvlzNq/",
+  "removed": false,
+  "reach": 0,
+  "views": 0,
+  "likes": 0,
+  "comments": 0,
+  "saves": 0,
+  "shares": 0,
+  "follows": 0,
+  "profile_visits": 0,
+  "interactions": 0,
+  "engagement_rate": null,
+  "comments_from_others": 0,
+  "quality_comments": 0,
+  "reset_comments": 0,
+  "replied_comments": 0,
+  "day": "Yesterday"
  },
  {
   "id": "2026-11-17-R14",
@@ -773,7 +811,7 @@
   "batch": 2,
   "approved": true,
   "status": "Scheduled",
-  "day": "Tomorrow"
+  "day": "Today"
  },
  {
   "id": "2026-11-17-C10",
@@ -785,7 +823,7 @@
   "batch": 2,
   "approved": true,
   "status": "Scheduled",
-  "day": "Tomorrow"
+  "day": "Today"
  },
  {
   "id": "2026-11-18-R15",
@@ -797,7 +835,7 @@
   "batch": 2,
   "approved": true,
   "status": "Scheduled",
-  "day": "Later"
+  "day": "Tomorrow"
  },
  {
   "id": "2026-11-18-C11",
@@ -809,7 +847,7 @@
   "batch": 2,
   "approved": true,
   "status": "Scheduled",
-  "day": "Later"
+  "day": "Tomorrow"
  },
  {
   "id": "2026-11-19-R16",

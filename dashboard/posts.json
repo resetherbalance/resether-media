@@ -829,7 +829,7 @@
   "quality_comments": 0,
   "reset_comments": 0,
   "replied_comments": 0,
-  "avg_watch_s": 8.9,
+  "avg_watch_s": 6.9,
   "day": "Past",
   "boost_ready": false
  },
@@ -877,22 +877,22 @@
   "minutes_late": 0,
   "permalink": "https://www.instagram.com/reel/Df4gmz4ibPx/",
   "removed": false,
-  "reach": 3,
-  "views": 3,
-  "likes": 0,
+  "reach": 7,
+  "views": 8,
+  "likes": 1,
   "comments": 0,
   "saves": 0,
   "shares": 0,
   "follows": 0,
   "profile_visits": 0,
-  "interactions": 0,
-  "engagement_rate": 0.0,
+  "interactions": 1,
+  "engagement_rate": 0.1429,
   "comments_from_others": 0,
   "quality_comments": 0,
   "reset_comments": 0,
   "replied_comments": 0,
-  "avg_watch_s": 7.9,
-  "day": "Yesterday",
+  "avg_watch_s": 11.2,
+  "day": "Past",
   "boost_ready": false
  },
  {
@@ -923,7 +923,7 @@
   "quality_comments": 0,
   "reset_comments": 0,
   "replied_comments": 0,
-  "day": "Yesterday"
+  "day": "Past"
  },
  {
   "id": "2026-11-19-R16",
@@ -934,8 +934,28 @@
   "title": "For most of us there's no gap: work ends and the next shift starts in the hallway.",
   "batch": 2,
   "approved": true,
-  "status": "Scheduled",
-  "day": "Today"
+  "status": "Posted",
+  "posted_at": "2026-11-19 12:32",
+  "minutes_late": 3,
+  "permalink": "https://www.instagram.com/reel/Df7FqiDjrSE/",
+  "removed": false,
+  "reach": 2,
+  "views": 2,
+  "likes": 0,
+  "comments": 0,
+  "saves": 0,
+  "shares": 0,
+  "follows": 0,
+  "profile_visits": 0,
+  "interactions": 0,
+  "engagement_rate": 0.0,
+  "comments_from_others": 0,
+  "quality_comments": 0,
+  "reset_comments": 0,
+  "replied_comments": 0,
+  "avg_watch_s": 2.6,
+  "day": "Yesterday",
+  "boost_ready": false
  },
  {
   "id": "2026-11-19-C12",
@@ -946,8 +966,26 @@
   "title": "Knowing the words makes the conversation easier.",
   "batch": 2,
   "approved": true,
-  "status": "Scheduled",
-  "day": "Today"
+  "status": "Posted",
+  "posted_at": "2026-11-19 19:30",
+  "minutes_late": 0,
+  "permalink": "https://www.instagram.com/p/Df71gNNjTzF/",
+  "removed": false,
+  "reach": 0,
+  "views": 0,
+  "likes": 0,
+  "comments": 0,
+  "saves": 0,
+  "shares": 0,
+  "follows": 0,
+  "profile_visits": 0,
+  "interactions": 0,
+  "engagement_rate": null,
+  "comments_from_others": 0,
+  "quality_comments": 0,
+  "reset_comments": 0,
+  "replied_comments": 0,
+  "day": "Yesterday"
  },
  {
   "id": "2026-11-20-R17",
@@ -959,7 +997,7 @@
   "batch": 2,
   "approved": true,
   "status": "Scheduled",
-  "day": "Tomorrow"
+  "day": "Today"
  },
  {
   "id": "2026-11-20-S4",
@@ -971,7 +1009,7 @@
   "batch": 2,
   "approved": true,
   "status": "Scheduled",
-  "day": "Tomorrow"
+  "day": "Today"
  },
  {
   "id": "2026-11-21-R18",
@@ -983,7 +1021,7 @@
   "batch": 2,
   "approved": true,
   "status": "Scheduled",
-  "day": "Later"
+  "day": "Tomorrow"
  },
  {
   "id": "2026-11-21-C13",
@@ -995,6 +1033,6 @@
   "batch": 2,
   "approved": true,
   "status": "Scheduled",
-  "day": "Later"
+  "day": "Tomorrow"
  }
 ]

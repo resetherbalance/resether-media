@@ -643,7 +643,7 @@
   "quality_comments": 0,
   "reset_comments": 0,
   "replied_comments": 0,
-  "avg_watch_s": 3.2,
+  "avg_watch_s": 3.4,
   "day": "Past",
   "boost_ready": false
  },
@@ -1063,8 +1063,8 @@
   "minutes_late": 0,
   "permalink": "https://www.instagram.com/reel/DgAO-H_k-ZR/",
   "removed": false,
-  "reach": 0,
-  "views": 0,
+  "reach": 1,
+  "views": 1,
   "likes": 0,
   "comments": 0,
   "saves": 0,
@@ -1072,13 +1072,14 @@
   "follows": 0,
   "profile_visits": 0,
   "interactions": 0,
-  "engagement_rate": null,
+  "engagement_rate": 0.0,
   "comments_from_others": 0,
   "quality_comments": 0,
   "reset_comments": 0,
   "replied_comments": 0,
-  "avg_watch_s": 0.0,
-  "day": "Yesterday"
+  "avg_watch_s": 1.2,
+  "day": "Yesterday",
+  "boost_ready": false
  },
  {
   "id": "2026-11-21-C13",

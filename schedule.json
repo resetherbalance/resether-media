@@ -467,6 +467,56 @@
    "batch": 3,
    "file": "b3/R1.mp4",
    "cover": "b3/R1_cover.jpg"
+  },
+  {
+   "id": "2026-11-25-B3R2",
+   "when_utc": "2026-11-25T19:30:00Z",
+   "type": "REELS",
+   "caption": "What time did you last check work email? Tell us below. Send this to the friend who reads her emails in bed \"just to see\". Follow for more ways to actually clock off. You don't need to start again. Reset, not restart.\n\nSources: Barber and Santuzzi 2015 (telepressure); Belkin, Becker and Conroy, \"The Invisible Leash\", Group & Organization Management, 2020.\n\n#workingwomen #womenover35 #mentalload #clockoff #tinyhabits",
+   "approved": true,
+   "batch": 3,
+   "file": "b3/R2.mp4",
+   "cover": "b3/R2_cover.jpg"
+  },
+  {
+   "id": "2026-11-27-B3S1",
+   "when_utc": "2026-11-27T19:30:00Z",
+   "type": "REELS",
+   "caption": "This is my story, not a plan to copy. What helps you when your head won't switch off? Tell us below. Send this to the friend who needs to hear it tonight. Follow for real stories and small things that help. Everyone is different, so this may not suit you. If you have palpitations, speak to your GP or call 111. Reset, not restart.\n\n#workingwomen #womenover35 #mentalload #clockoff #tinyhabits",
+   "approved": true,
+   "batch": 3,
+   "file": "b3/S1.mp4",
+   "cover": "b3/S1_cover.jpg"
+  },
+  {
+   "id": "2026-11-30-B3R4",
+   "when_utc": "2026-11-30T19:30:00Z",
+   "type": "REELS",
+   "caption": "Which part do you carry most? 1, 2, 3 or 4? Send this to the friend who \"splits it 50/50\" and is still exhausted. Yes, they'll ask where the bin bags are. Once. Follow for more on the load nobody sees. Reset, not restart.\n\nSource: Daminger, American Sociological Review, 2019.\n\n#workingwomen #womenover35 #mentalload #clockoff #tinyhabits",
+   "approved": true,
+   "batch": 3,
+   "file": "b3/R4.mp4",
+   "cover": "b3/R4_cover.jpg"
+  },
+  {
+   "id": "2026-12-02-B3X1",
+   "when_utc": "2026-12-02T19:30:00Z",
+   "type": "REELS",
+   "caption": "Tag the person who makes Christmas happen in your house. Or the one who thinks it just happens. Follow for a calmer December. You don't need to start again. Reset, not restart.\n\n#workingwomen #womenover35 #mentalload #christmas #tinyhabits",
+   "approved": true,
+   "batch": 3,
+   "file": "b3/X1.mp4",
+   "cover": "b3/X1_cover.jpg"
+  },
+  {
+   "id": "2026-12-04-B3R6",
+   "when_utc": "2026-12-04T19:30:00Z",
+   "type": "REELS",
+   "caption": "What job are you handing over this week? Tell us below. Send this to the friend who's tired of asking. Follow for more scripts that save your evenings. Reset, not restart.\n\nSource: Daminger, American Sociological Review, 2019.\n\n#workingwomen #womenover35 #mentalload #clockoff #tinyhabits",
+   "approved": true,
+   "batch": 3,
+   "file": "b3/R6.mp4",
+   "cover": "b3/R6_cover.jpg"
   }
  ]
 }

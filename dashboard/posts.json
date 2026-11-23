@@ -1078,7 +1078,7 @@
   "reset_comments": 0,
   "replied_comments": 0,
   "avg_watch_s": 1.2,
-  "day": "Yesterday",
+  "day": "Past",
   "boost_ready": false
  },
  {
@@ -1109,7 +1109,7 @@
   "quality_comments": 0,
   "reset_comments": 0,
   "replied_comments": 0,
-  "day": "Yesterday"
+  "day": "Past"
  },
  {
   "id": "2026-11-23-B3R1",
@@ -1121,7 +1121,7 @@
   "batch": 3,
   "approved": true,
   "status": "Scheduled",
-  "day": "Tomorrow"
+  "day": "Today"
  },
  {
   "id": "2026-11-25-B3R2",

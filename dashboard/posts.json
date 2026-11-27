@@ -1172,7 +1172,7 @@
   "reset_comments": 0,
   "replied_comments": 0,
   "avg_watch_s": 1.7,
-  "day": "Yesterday",
+  "day": "Past",
   "boost_ready": false
  },
  {
@@ -1185,7 +1185,7 @@
   "batch": 3,
   "approved": true,
   "status": "Scheduled",
-  "day": "Tomorrow"
+  "day": "Today"
  },
  {
   "id": "2026-11-30-B3R4",
